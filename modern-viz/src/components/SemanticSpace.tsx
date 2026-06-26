@@ -36,6 +36,7 @@ interface SelectedNodeInfo {
   code?: string;
   chapter?: string;
   description?: string;
+  color?: string;
 }
 
 export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
@@ -376,7 +377,10 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
       const selectedId = params.nodes[0];
       const matchedNode = nodesArray.find(n => n.id === selectedId);
       if (matchedNode && matchedNode.customData) {
-        setSelectedNode(matchedNode.customData);
+        setSelectedNode({
+          ...matchedNode.customData,
+          color: matchedNode.color?.background
+        });
       }
     });
 
@@ -562,7 +566,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
                 width: '12px',
                 height: '12px',
                 borderRadius: '50%',
-                backgroundColor: selectedNode.type === 'diagnosis' ? '#1db954' : '#00e5ff',
+                backgroundColor: selectedNode.color || (selectedNode.type === 'diagnosis' ? '#1db954' : '#00e5ff'),
                 marginRight: '6px'
               }}></span>
               <strong>{selectedNode.name}</strong>
