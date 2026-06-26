@@ -1,0 +1,2 @@
+# Dependencies for regenerating DSM-5 vector embeddings
+google-cloud-aiplatform>=1.60.0

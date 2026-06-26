@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL archive files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+specs/
+visualization/
+
+# Pytest and coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+.htmlcov
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Scratch and temp files
+Untitled*
+*.tmp
+*~
+
+# Node / React Frontend
+node_modules/
+modern-viz/node_modules/
+modern-viz/dist/
+modern-viz/.vite/
+.eslintcache
+

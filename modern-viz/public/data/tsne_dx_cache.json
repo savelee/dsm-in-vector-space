@@ -1,0 +1,1505 @@
+[
+  {
+    "diagnosis_id": "DX_ACUTE_STRESS",
+    "diagnosis_name": "Acute Stress Disorder",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "diagnostic_code": "F43.0",
+    "x": 2.898524284362793,
+    "y": 14.935080528259277,
+    "symptoms_list": "Trauma Exposure, Intrusive Memories, Distressing Dreams, Flashbacks, Trigger Distress, Negative Mood, Altered Reality, Dissociative Amnesia, Internal Avoidance, External Avoidance, Insomnia, Angry Outbursts, Hypervigilance, Concentration Difficulties, Exaggerated Startle, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ADHD",
+    "diagnosis_name": "Attention-Deficit/Hyperactivity Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F90.0",
+    "x": 7.87625789642334,
+    "y": -23.19544219970703,
+    "symptoms_list": "Careless Mistakes, Poor Sustained Attention, Poor Listening, Incomplete Tasks, Poor Organization, Avoids Mental Effort, Loses Things, Easily Distracted, Forgetful, Fidgets or Squirms, Leaves Seat, Inappropriate Running, Loud Leisure, Constantly Active, Excessive Talking, Blurts Out Answers, Difficulty Waiting, Interrupts Others, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ADJUSTMENT",
+    "diagnosis_name": "Adjustment Disorder",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "diagnostic_code": "F43.21",
+    "x": 0.44746658205986023,
+    "y": 0.4647849202156067,
+    "symptoms_list": "Stressor Response, Disproportionate Distress, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_AGOR",
+    "diagnosis_name": "Agoraphobia",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F40.00",
+    "x": 1.1124159097671509,
+    "y": 5.78909158706665,
+    "symptoms_list": "Fear Public Transit, Fear Open Spaces, Fear Enclosed Spaces, Fear of Crowds, Fear Outside Alone, Fear of Trapping, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ALC_INT",
+    "diagnosis_name": "Alcohol Intoxication",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "diagnostic_code": "F10.920",
+    "x": 8.152388572692871,
+    "y": 6.553009986877441,
+    "symptoms_list": "Problematic Intoxication Behavior, Slurred Speech, Impaired Coordination, Unsteady Gait, Nystagmus, Impaired Memory, Stupor or Coma, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ALC_WTH",
+    "diagnosis_name": "Alcohol Withdrawal",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "diagnostic_code": "F10.239",
+    "x": 7.816431045532227,
+    "y": 4.494356632232666,
+    "symptoms_list": "Autonomic Hyperactivity, Withdrawal Tremor, Insomnia, Withdrawal Nausea, Withdrawal Hallucinations, Psychomotor Agitation, Withdrawal Anxiety, Withdrawal Seizures, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_AN",
+    "diagnosis_name": "Anorexia Nervosa",
+    "chapter_category": "Feeding and Eating Disorders",
+    "diagnostic_code": "F50.02",
+    "x": 0.9834802150726318,
+    "y": -25.102108001708984,
+    "symptoms_list": "Restricts Food Intake, Fear of Weight, Distorted Body Image"
+  },
+  {
+    "diagnosis_id": "DX_ANX_MED",
+    "diagnosis_name": "Anxiety Disorder Due to Another Medical Condition",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F06.4",
+    "x": 3.127761125564575,
+    "y": 2.0532686710357666,
+    "symptoms_list": "Medical Etiology, Panic Attacks, Severe Anxiety, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ANX_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Anxiety Disorder",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F19.94",
+    "x": 3.9288012981414795,
+    "y": 2.3838467597961426,
+    "symptoms_list": "Substance Etiology, Panic Attacks, Severe Anxiety, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ARFID",
+    "diagnosis_name": "Avoidant/Restrictive Food Intake Disorder",
+    "chapter_category": "Feeding and Eating Disorders",
+    "diagnostic_code": "F50.82",
+    "x": 0.6319329142570496,
+    "y": -21.656591415405273,
+    "symptoms_list": "Food Avoidance, Weight Loss, Nutritional Deficiency, Enteral Dependence, Psychosocial Interference, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ASD",
+    "diagnosis_name": "Autism Spectrum Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F84.0",
+    "x": 2.324723958969116,
+    "y": 16.490530014038086,
+    "symptoms_list": "Reciprocity Deficits, Nonverbal Deficits, Relationship Deficits, Stereotyped Behaviors, Inflexible Routines, Fixated Interests, Sensory Reactivity, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ASPD",
+    "diagnosis_name": "Antisocial Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F60.2",
+    "x": 3.1856141090393066,
+    "y": 19.73281478881836,
+    "symptoms_list": "Unlawful Behavior, Deceitfulness, Impulsivity, Irritability And Aggression, Reckless Disregard, Consistent Irresponsibility, Lack Of Remorse, Conduct Disorder History, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_AVOIDANT_PD",
+    "diagnosis_name": "Avoidant Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F60.6",
+    "x": -1.5559269189834595,
+    "y": 9.647527694702148,
+    "symptoms_list": "Avoids Interpersonal Work, Requires Guaranteed Acceptance, Intimacy Restraint, Rejection Sensitivity, Socially Inhibited, Feelings of Inferiority, Avoids Personal Risks, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_BDD",
+    "diagnosis_name": "Body Dysmorphic Disorder",
+    "chapter_category": "Obsessive\u2013Compulsive and Related Disorders",
+    "diagnostic_code": "F45.22",
+    "x": 10.120979309082031,
+    "y": -5.64982795715332,
+    "symptoms_list": "Appearance Preoccupation, Repetitive Behaviors, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_BED",
+    "diagnosis_name": "Binge-Eating Disorder",
+    "chapter_category": "Feeding and Eating Disorders",
+    "diagnostic_code": "F50.81",
+    "x": -1.6894124746322632,
+    "y": -25.639419555664062,
+    "symptoms_list": "Binge Eating, Loss Of Control, Rapid Eating, Uncomfortable Fullness, Eating Without Hunger, Eating Alone, Post-Binge Guilt, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_BIF",
+    "diagnosis_name": "Borderline Intellectual Functioning",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "R41.83",
+    "x": -10.158002853393555,
+    "y": -16.043781280517578,
+    "symptoms_list": "Borderline IQ, Adequate Coping"
+  },
+  {
+    "diagnosis_id": "DX_BN",
+    "diagnosis_name": "Bulimia Nervosa",
+    "chapter_category": "Feeding and Eating Disorders",
+    "diagnostic_code": "F50.2",
+    "x": -0.819155216217041,
+    "y": -25.475461959838867,
+    "symptoms_list": "Binge Eating, Loss Of Control, Compensatory Behaviors, Weight Self-Evaluation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_BORDERLINE_PD",
+    "diagnosis_name": "Borderline Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F60.3",
+    "x": -2.2158381938934326,
+    "y": 15.138310432434082,
+    "symptoms_list": "Avoiding Abandonment, Unstable Relationships, Unstable Identity, Self-Damaging Impulsivity, Suicidal Behavior, Affective Instability, Chronic Emptiness, Inappropriate Anger, Stress-Related Paranoia, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_BPI",
+    "diagnosis_name": "Bipolar I Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F31.9",
+    "x": -5.442660808563232,
+    "y": 4.876960277557373,
+    "symptoms_list": "Elevated Mood, Increased Energy, Grandiosity, Decreased Sleep Need, Pressured Speech, Racing Thoughts, Distractibility, Goal-Directed Activity, Risky Behavior, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_BPII",
+    "diagnosis_name": "Bipolar II Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F31.81",
+    "x": -7.248449325561523,
+    "y": 5.507763862609863,
+    "symptoms_list": "Elevated Mood, Increased Energy, Grandiosity, Decreased Sleep Need, Pressured Speech, Racing Thoughts, Distractibility, Goal-Directed Activity, Risky Behavior, Depressed Mood, Diminished Interest, Appetite Changes, Sleep Disturbance, Psychomotor Changes, Fatigue, Worthlessness or Guilt, Diminished Concentration, Suicidal Ideation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_BPL_MED",
+    "diagnosis_name": "Bipolar Disorder Due to Another Medical Condition",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F06.33",
+    "x": -3.903620481491089,
+    "y": 2.916934013366699,
+    "symptoms_list": "Medical Etiology, Elevated Mood, Increased Energy, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_BPL_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Bipolar Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F19.93",
+    "x": -4.6439290046691895,
+    "y": 3.117893934249878,
+    "symptoms_list": "Substance Etiology, Elevated Mood, Increased Energy, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_BRIEF_PSYCH",
+    "diagnosis_name": "Brief Psychotic Disorder",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "diagnostic_code": "F23",
+    "x": -12.240087509155273,
+    "y": 17.006912231445312,
+    "symptoms_list": "Delusions, Hallucinations, Disorganized Speech, Catatonic Behavior, Not Substance Induced"
+  },
+  {
+    "diagnosis_id": "DX_CAF_INT",
+    "diagnosis_name": "Caffeine Intoxication",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "diagnostic_code": "F15.920",
+    "x": 13.29302978515625,
+    "y": 5.7058539390563965,
+    "symptoms_list": "Restlessness, Nervousness, Excitement, Insomnia, Flushed Face, Diuresis, Gastrointestinal Disturbance, Muscle Twitching, Rambling Speech, Tachycardia, Inexhaustibility, Psychomotor Agitation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_CAF_WTH",
+    "diagnosis_name": "Caffeine Withdrawal",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "diagnostic_code": "F15.93",
+    "x": 12.557554244995117,
+    "y": 5.3239216804504395,
+    "symptoms_list": "Withdrawal Headache, Withdrawal Fatigue, Dysphoric Mood, Concentration Difficulty, Flulike Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_CATA_MED",
+    "diagnosis_name": "Catatonic Disorder Due to Another Medical Condition",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "diagnostic_code": "F06.1",
+    "x": -11.08992862701416,
+    "y": 23.322040557861328,
+    "symptoms_list": "Stupor, Catalepsy, Waxy Flexibility, Mutism, Negativism, Posturing, Mannerisms, Stereotypy, Catatonic Agitation, Grimacing, Echolalia, Echopraxia"
+  },
+  {
+    "diagnosis_id": "DX_CATA_SPEC",
+    "diagnosis_name": "Catatonia Associated with Another Mental Disorder (Specifier)",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "diagnostic_code": "F06.1",
+    "x": -10.400955200195312,
+    "y": 23.304672241210938,
+    "symptoms_list": "Stupor, Catalepsy, Waxy Flexibility, Mutism, Negativism, Posturing, Mannerisms, Stereotypy, Catatonic Agitation, Grimacing, Echolalia, Echopraxia"
+  },
+  {
+    "diagnosis_id": "DX_CD",
+    "diagnosis_name": "Conduct Disorder",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "diagnostic_code": "F91.1",
+    "x": 3.611250877380371,
+    "y": 22.0101318359375,
+    "symptoms_list": "Bullies Others, Initiates Fights, Weapon Use, Cruelty to People, Cruelty to Animals, Confrontational Theft, Sexual Coercion, Fire Setting, Property Destruction, Breaking and Entering, Frequent Lying, Nonconfrontational Theft, Curfew Violation, Running Away, Truancy, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_CD_LPE",
+    "diagnosis_name": "Conduct Disorder, with Limited Prosocial Emotions",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "diagnostic_code": "F91.9",
+    "x": 3.8323984146118164,
+    "y": 21.25331687927246,
+    "symptoms_list": "Bullies Others, Initiates Fights, Weapon Use, Cruelty to People, Cruelty to Animals, Confrontational Theft, Sexual Coercion, Fire Setting, Property Destruction, Breaking and Entering, Frequent Lying, Nonconfrontational Theft, Curfew Violation, Running Away, Truancy, Lack Of Remorse, Lacks Empathy, Unconcerned About Performance, Shallow Affect, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_CIRC_RYTHM",
+    "diagnosis_name": "Circadian Rhythm Sleep\u2013Wake Disorder",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "G47.21",
+    "x": -18.53062629699707,
+    "y": -2.8935060501098633,
+    "symptoms_list": "Sleep-Wake Mismatch, Circadian Sleep Disruption, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_CSA",
+    "diagnosis_name": "Central Sleep Apnea",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "G47.31",
+    "x": -24.737194061279297,
+    "y": -1.3762894868850708,
+    "symptoms_list": "Central Sleep Apnea"
+  },
+  {
+    "diagnosis_id": "DX_CYCLO",
+    "diagnosis_name": "Cyclothymic Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F34.0",
+    "x": -7.960000991821289,
+    "y": 2.8368136882781982,
+    "symptoms_list": "Never Met Criteria, Elevated Mood, Depressed Mood, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DA",
+    "diagnosis_name": "Dissociative Amnesia",
+    "chapter_category": "Dissociative Disorders",
+    "diagnostic_code": "F44.0",
+    "x": 11.1565523147583,
+    "y": 12.424705505371094,
+    "symptoms_list": "Autobiographical Amnesia, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DA_FUGUE",
+    "diagnosis_name": "Dissociative Amnesia, with Dissociative Fugue",
+    "chapter_category": "Dissociative Disorders",
+    "diagnostic_code": "F44.1",
+    "x": 10.420644760131836,
+    "y": 12.715174674987793,
+    "symptoms_list": "Autobiographical Amnesia, Dissociative Fugue, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DCD",
+    "diagnosis_name": "Developmental Coordination Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F82",
+    "x": -7.894509315490723,
+    "y": -12.499435424804688,
+    "symptoms_list": "Poor Motor Skills, Motor Interference, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DDD",
+    "diagnosis_name": "Depersonalization/Derealization Disorder",
+    "chapter_category": "Dissociative Disorders",
+    "diagnostic_code": "F48.1",
+    "x": 7.206238746643066,
+    "y": 12.839879989624023,
+    "symptoms_list": "Depersonalization, Derealization, Intact Reality Testing, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DE",
+    "diagnosis_name": "Delayed Ejaculation",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F52.32",
+    "x": 19.25045394897461,
+    "y": -13.311119079589844,
+    "symptoms_list": "Delayed Orgasm, Delayed Ejaculation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DELIRIUM",
+    "diagnosis_name": "Delirium",
+    "chapter_category": "Cognitive Disorders",
+    "diagnostic_code": "F05",
+    "x": -18.978904724121094,
+    "y": 15.570996284484863,
+    "symptoms_list": "Physiological Etiology, Impaired Attention, Reduced Awareness, Memory Deficit, Disorientation, Language Disturbance, Visuospatial Deficit, Perceptual Deficit"
+  },
+  {
+    "diagnosis_id": "DX_DEL_DIS",
+    "diagnosis_name": "Delusional Disorder",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "diagnostic_code": "F22",
+    "x": -12.893537521362305,
+    "y": 14.881670951843262,
+    "symptoms_list": "Delusions, Not Substance Induced"
+  },
+  {
+    "diagnosis_id": "DX_DEPENDENT_PD",
+    "diagnosis_name": "Dependent Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F60.7",
+    "x": -2.777043104171753,
+    "y": 11.374712944030762,
+    "symptoms_list": "Needs Excessive Advice, Avoids Responsibility, Difficulty Disagreeing, Difficulty Initiating, Seeks Excessive Nurturance, Helpless When Alone, Urgently Seeks Relationships, Fear of Abandonment, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DEP_MED",
+    "diagnosis_name": "Depressive Disorder Due to Another Medical Condition",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F06.31",
+    "x": -10.65678596496582,
+    "y": 3.8346524238586426,
+    "symptoms_list": "Depressed Mood, Diminished Interest, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DEP_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Depressive Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F19.94",
+    "x": -9.78637409210205,
+    "y": 3.524940013885498,
+    "symptoms_list": "Depressed Mood, Diminished Interest, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DID",
+    "diagnosis_name": "Dissociative Identity Disorder",
+    "chapter_category": "Dissociative Disorders",
+    "diagnostic_code": "F44.81",
+    "x": 8.797706604003906,
+    "y": 12.737592697143555,
+    "symptoms_list": "Multiple Identities, Recurrent Memory Gaps, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DMDD",
+    "diagnosis_name": "Disruptive Mood Dysregulation Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F34.81",
+    "x": -6.870348930358887,
+    "y": -0.11660224944353104,
+    "symptoms_list": "Severe Temper Outbursts, Persistent Irritability, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_DSED",
+    "diagnosis_name": "Disinhibited Social Engagement Disorder",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "diagnostic_code": "F94.2",
+    "x": -1.253584384918213,
+    "y": 19.82784652709961,
+    "symptoms_list": "Approaches Strangers, Overly Familiar Behavior, Fails to Check In, Extreme Neglect, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ED",
+    "diagnosis_name": "Erectile Disorder",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F52.21",
+    "x": 20.82249641418457,
+    "y": -12.956464767456055,
+    "symptoms_list": "Obtaining Erection Difficulty, Maintaining Erection Difficulty, Decreased Erectile Rigidity, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ENCO",
+    "diagnosis_name": "Encopresis",
+    "chapter_category": "Elimination Disorders",
+    "diagnostic_code": "F98.1",
+    "x": -3.923405647277832,
+    "y": -17.82259178161621,
+    "symptoms_list": "Inappropriate Defecation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ENUR",
+    "diagnosis_name": "Enuresis",
+    "chapter_category": "Elimination Disorders",
+    "diagnostic_code": "F98.0",
+    "x": -3.3999969959259033,
+    "y": -17.16495132446289,
+    "symptoms_list": "Inappropriate Urination, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_EXCOR",
+    "diagnosis_name": "Excoriation (Skin-Picking) Disorder",
+    "chapter_category": "Obsessive\u2013Compulsive and Related Disorders",
+    "diagnostic_code": "F42.4",
+    "x": 13.842267990112305,
+    "y": -5.634360313415527,
+    "symptoms_list": "Skin Picking, Inability to Stop, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_EXHIB",
+    "diagnosis_name": "Exhibitionistic Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.2",
+    "x": 10.153682708740234,
+    "y": 30.43423843383789,
+    "symptoms_list": "Exhibitionistic Arousal, Exhibitionistic Acting Out, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_FAC_ANOTHER",
+    "diagnosis_name": "Factitious Disorder Imposed on Another",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "diagnostic_code": "F68.A",
+    "x": 9.40463638305664,
+    "y": 20.48627281188965,
+    "symptoms_list": "Falsifying Others' Symptoms, Deception Without Reward, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_FAC_SELF",
+    "diagnosis_name": "Factitious Disorder Imposed on Self",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "diagnostic_code": "F68.10",
+    "x": 9.752427101135254,
+    "y": 19.91183853149414,
+    "symptoms_list": "Falsifying Symptoms, Deception Without Reward, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_FETISH",
+    "diagnosis_name": "Fetishistic Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.0",
+    "x": 9.770530700683594,
+    "y": 27.756099700927734,
+    "symptoms_list": "Fetishistic Arousal, Fetishistic Acting Out, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_FNSD",
+    "diagnosis_name": "Functional Neurological Symptom Disorder (Conversion Disorder)",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "diagnostic_code": "F44.4",
+    "x": -1.627921462059021,
+    "y": -7.756589889526367,
+    "symptoms_list": "Altered Motor Function, Inconsistent Neurological Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_FOD",
+    "diagnosis_name": "Female Orgasmic Disorder",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F52.31",
+    "x": 19.48412322998047,
+    "y": -14.9619779586792,
+    "symptoms_list": "Delayed Orgasm, Absent Orgasm, Reduced Orgasm Intensity, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_FROTT",
+    "diagnosis_name": "Frotteuristic Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.81",
+    "x": 10.44290542602539,
+    "y": 28.99856948852539,
+    "symptoms_list": "Frotteuristic Arousal, Frotteuristic Acting Out, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_FSIAD",
+    "diagnosis_name": "Female Sexual Interest/Arousal Disorder",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F52.22",
+    "x": 18.545930862426758,
+    "y": -15.74903392791748,
+    "symptoms_list": "Reduced Sexual Interest, Absent Erotic Thoughts, Lack of Initiation, Reduced Sexual Pleasure, Unresponsive to Partner, Reduced Sexual Sensation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_GAD",
+    "diagnosis_name": "Generalized Anxiety Disorder",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F41.1",
+    "x": -6.587882995605469,
+    "y": 6.996102333068848,
+    "symptoms_list": "Excessive Worry, Restlessness, Easy Fatigability, Poor Concentration, Irritability, Muscle Tension, Sleep Disturbance, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_GAMBLE",
+    "diagnosis_name": "Gambling Disorder",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "diagnostic_code": "F63.0",
+    "x": 6.685736656188965,
+    "y": 19.16544532775879,
+    "symptoms_list": "Gambling Tolerance, Gambling Withdrawal, Inability to Stop, Gambling Preoccupation, Stress Gambling, Chasing Losses, Concealing Gambling, Jeopardized Relationships, Financial Bailouts, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_GDD",
+    "diagnosis_name": "Global Developmental Delay",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F88",
+    "x": -13.153087615966797,
+    "y": -14.25017261505127,
+    "symptoms_list": "Developmental Delay, Unassessable Delay"
+  },
+  {
+    "diagnosis_id": "DX_GD_ADULT",
+    "diagnosis_name": "Gender Dysphoria in Adolescents and Adults",
+    "chapter_category": "Gender Dysphoria",
+    "diagnostic_code": "F64.0",
+    "x": 21.134193420410156,
+    "y": -1.5556098222732544,
+    "symptoms_list": "Gender Incongruence, Reject Sex Characteristics, Desire Sex Characteristics, Desire Another Gender, Desire Cross-Gender Recognition, Cross-Gender Feelings, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_GD_CHILD",
+    "diagnosis_name": "Gender Dysphoria in Children",
+    "chapter_category": "Gender Dysphoria",
+    "diagnostic_code": "F64.2",
+    "x": 21.565935134887695,
+    "y": -0.9217437505722046,
+    "symptoms_list": "Desire Another Gender, Cross-Gender Clothing, Cross-Gender Roles, Cross-Gender Play, Cross-Gender Playmates, Rejecting Assigned Toys, Reject Sex Characteristics, Desire Sex Characteristics, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_GPD",
+    "diagnosis_name": "Genito-Pelvic Pain/Penetration Disorder",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F52.6",
+    "x": 21.112289428710938,
+    "y": -15.690818786621094,
+    "symptoms_list": "Penetration Difficulty, Pelvic Pain, Fear of Penetration, Pelvic Muscle Tensing, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_HISTRIONIC_PD",
+    "diagnosis_name": "Histrionic Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F60.4",
+    "x": -5.473134994506836,
+    "y": 14.184252738952637,
+    "symptoms_list": "Needs Center Attention, Seductive Behavior, Shallow Emotions, Attention-Seeking Appearance, Vague Speech, Exaggerated Emotions, High Suggestibility, Overestimates Intimacy, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_HOARD",
+    "diagnosis_name": "Hoarding Disorder",
+    "chapter_category": "Obsessive\u2013Compulsive and Related Disorders",
+    "diagnostic_code": "F42.3",
+    "x": 7.838796138763428,
+    "y": -2.2217633724212646,
+    "symptoms_list": "Difficulty Discarding Possessions, Hoarding Distress, Cluttered Living Areas, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_HYPERSOM",
+    "diagnosis_name": "Hypersomnolence Disorder",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "F51.11",
+    "x": -19.372997283935547,
+    "y": -1.0751757621765137,
+    "symptoms_list": "Daytime Napping, Prolonged Unrefreshing Sleep, Sleep Inertia, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_IAD",
+    "diagnosis_name": "Illness Anxiety Disorder",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "diagnostic_code": "F45.21",
+    "x": 4.323410987854004,
+    "y": -1.156287670135498,
+    "symptoms_list": "Illness Preoccupation, Health Anxiety, Excessive Health Behaviors, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_IDD",
+    "diagnosis_name": "Intellectual Developmental Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F70",
+    "x": -10.317243576049805,
+    "y": -14.308107376098633,
+    "symptoms_list": "Intellectual Deficits, Adaptive Deficits, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_IED",
+    "diagnosis_name": "Intermittent Explosive Disorder",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "diagnostic_code": "F63.81",
+    "x": -4.862998962402344,
+    "y": -2.266789436340332,
+    "symptoms_list": "Aggressive Outbursts, Disproportionate Aggression, Unplanned Outbursts, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_IEO",
+    "diagnosis_name": "Impairing Emotional Outbursts",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "diagnostic_code": "R45.89",
+    "x": -4.682865142822266,
+    "y": -1.573911428451538,
+    "symptoms_list": "Aggressive Outbursts, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_INSOM",
+    "diagnosis_name": "Insomnia Disorder",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "F51.01",
+    "x": -19.76085090637207,
+    "y": -1.9819163084030151,
+    "symptoms_list": "Difficulty Falling Asleep, Difficulty Maintaining Sleep, Early Morning Awakening, Unrefreshing Sleep, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_KLEPTO",
+    "diagnosis_name": "Kleptomania",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "diagnostic_code": "F63.2",
+    "x": 5.675837516784668,
+    "y": 22.443296432495117,
+    "symptoms_list": "Impulse to Steal, Pre-Theft Tension, Theft Gratification"
+  },
+  {
+    "diagnosis_id": "DX_LD",
+    "diagnosis_name": "Language Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F80.2",
+    "x": -10.230128288269043,
+    "y": -9.540102005004883,
+    "symptoms_list": "Reduced Vocabulary, Limited Sentence Structure, Impaired Discourse, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_MASOCH",
+    "diagnosis_name": "Sexual Masochism Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.51",
+    "x": 7.77211332321167,
+    "y": 27.780773162841797,
+    "symptoms_list": "Masochistic Arousal, Masochistic Acts, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_MDD",
+    "diagnosis_name": "Major Depressive Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F32.9",
+    "x": -9.25877571105957,
+    "y": 5.2241950035095215,
+    "symptoms_list": "Depressed Mood, Diminished Interest, Appetite Changes, Sleep Disturbance, Psychomotor Changes, Fatigue, Worthlessness or Guilt, Diminished Concentration, Suicidal Ideation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_MHSDD",
+    "diagnosis_name": "Male Hypoactive Sexual Desire Disorder",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F52.0",
+    "x": 16.63587188720703,
+    "y": -13.813736915588379,
+    "symptoms_list": "Reduced Sexual Desire, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_NARCISSISTIC_PD",
+    "diagnosis_name": "Narcissistic Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F60.81",
+    "x": -4.66961669921875,
+    "y": 12.63134765625,
+    "symptoms_list": "Grandiose Self-Importance, Grandiose Fantasies, Belief of Specialness, Requires Admiration, Sense of Entitlement, Interpersonally Exploitative, Lacks Empathy, Envious, Arrogant Behavior, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_NARCO",
+    "diagnosis_name": "Narcolepsy",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "G47.411",
+    "x": -21.07457733154297,
+    "y": 0.9948281645774841,
+    "symptoms_list": "Sleep Attacks, Cataplexy, Sleep Hallucinations, Sleep Paralysis"
+  },
+  {
+    "diagnosis_id": "DX_NCD_ALZ",
+    "diagnosis_name": "Neurocognitive Disorder Due to Alzheimer\u2019s Disease",
+    "chapter_category": "Cognitive Disorders",
+    "diagnostic_code": "G30.9",
+    "x": -22.281368255615234,
+    "y": 14.05298137664795,
+    "symptoms_list": "Insidious Onset, Gradual Progression, Not Other Neurocognitive"
+  },
+  {
+    "diagnosis_id": "DX_NCD_MAJ",
+    "diagnosis_name": "Major Neurocognitive Disorder",
+    "chapter_category": "Cognitive Disorders",
+    "diagnostic_code": "F03.90",
+    "x": -21.070476531982422,
+    "y": 12.954066276550293,
+    "symptoms_list": "Significant Cognitive Decline, Documented Major Decline, Impaired Independence, Not Delirium"
+  },
+  {
+    "diagnosis_id": "DX_NCD_MLD",
+    "diagnosis_name": "Mild Neurocognitive Disorder",
+    "chapter_category": "Cognitive Disorders",
+    "diagnostic_code": "G31.84",
+    "x": -21.69161033630371,
+    "y": 12.35956859588623,
+    "symptoms_list": "Modest Cognitive Decline, Documented Mild Decline, Preserved Independence, Not Delirium"
+  },
+  {
+    "diagnosis_id": "DX_NCD_TBI",
+    "diagnosis_name": "Neurocognitive Disorder Due to Traumatic Brain Injury",
+    "chapter_category": "Cognitive Disorders",
+    "diagnostic_code": "F02.80",
+    "x": -18.256425857543945,
+    "y": 17.573266983032227,
+    "symptoms_list": "Head Trauma, Loss of Consciousness, Posttraumatic Amnesia, Neurological Signs"
+  },
+  {
+    "diagnosis_id": "DX_NCD_VAS",
+    "diagnosis_name": "Vascular Neurocognitive Disorder",
+    "chapter_category": "Cognitive Disorders",
+    "diagnostic_code": "F01",
+    "x": -19.96166229248047,
+    "y": 14.815502166748047,
+    "symptoms_list": "Cerebrovascular Event Onset, Stepwise Progression, Executive Dysfunction, Impaired Attention"
+  },
+  {
+    "diagnosis_id": "DX_NIGHTMARE",
+    "diagnosis_name": "Nightmare Disorder",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "F51.5",
+    "x": -18.378402709960938,
+    "y": 2.046050786972046,
+    "symptoms_list": "Terrifying Dream Recall, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_NREM_AROUSAL",
+    "diagnosis_name": "Non-Rapid Eye Movement Sleep Arousal Disorder",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "F51.3",
+    "x": -19.847257614135742,
+    "y": 1.2695621252059937,
+    "symptoms_list": "Sleepwalking, Sleep Terrors, Sleep Episode Amnesia, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OCD",
+    "diagnosis_name": "Obsessive\u2013Compulsive Disorder",
+    "chapter_category": "Obsessive\u2013Compulsive and Related Disorders",
+    "diagnostic_code": "F42.2",
+    "x": 9.407697677612305,
+    "y": -3.531463146209717,
+    "symptoms_list": "Obsessions, Compulsions, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OCD_MED",
+    "diagnosis_name": "Obsessive\u2013Compulsive and Related Disorder Due to Another Medical Condition",
+    "chapter_category": "Obsessive\u2013Compulsive and Related Disorders",
+    "diagnostic_code": "F06.8",
+    "x": 7.668394088745117,
+    "y": -5.113463401794434,
+    "symptoms_list": "Prominent Obsessive-Compulsive Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OCD_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Obsessive\u2013Compulsive and Related Disorder",
+    "chapter_category": "Obsessive\u2013Compulsive and Related Disorders",
+    "diagnostic_code": "F19.988",
+    "x": 7.668394088745117,
+    "y": -5.113463401794434,
+    "symptoms_list": "Prominent Obsessive-Compulsive Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OCPD",
+    "diagnosis_name": "Obsessive\u2013Compulsive Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F60.5",
+    "x": 10.815502166748047,
+    "y": -1.7576961517333984,
+    "symptoms_list": "Preoccupation with Details, Perfectionism, Excessive Work Devotion, Inflexible Values, Inability to Discard, Reluctance to Delegate, Miserly Spending, Rigidity and Stubbornness, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_ODD",
+    "diagnosis_name": "Oppositional Defiant Disorder",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "diagnostic_code": "F91.3",
+    "x": -7.2180280685424805,
+    "y": -1.8761931657791138,
+    "symptoms_list": "Irritable Mood, Argumentative and Defiant, Vindictiveness, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OSADHD",
+    "diagnosis_name": "Other Specified/Unspecified ADHD",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F90.8",
+    "x": 7.30206298828125,
+    "y": -21.152036666870117,
+    "symptoms_list": "Subthreshold Symptoms, Late Onset, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OSAH",
+    "diagnosis_name": "Obstructive Sleep Apnea Hypopnea",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "G47.33",
+    "x": -23.50438117980957,
+    "y": -2.190614938735962,
+    "symptoms_list": "Breathing Pauses, Loud Snoring, Daytime Sleepiness"
+  },
+  {
+    "diagnosis_id": "DX_OSND",
+    "diagnosis_name": "Other Specified/Unspecified Neurodevelopmental Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F88",
+    "x": -1.3382714986801147,
+    "y": -12.819266319274902,
+    "symptoms_list": "Subthreshold Neurodevelopmental Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_ANX",
+    "diagnosis_name": "Other Specified Anxiety Disorder",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F41.8",
+    "x": 6.913248538970947,
+    "y": -16.21486473083496,
+    "symptoms_list": "Subthreshold Anxiety, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_BPL",
+    "diagnosis_name": "Other Specified Bipolar and Related Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F31.89",
+    "x": 7.360480785369873,
+    "y": -17.90203857421875,
+    "symptoms_list": "Subthreshold Bipolar Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_DEP",
+    "diagnosis_name": "Other Specified Depressive Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F32.89",
+    "x": 5.996109962463379,
+    "y": -17.432247161865234,
+    "symptoms_list": "Subthreshold Depression, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_DICD",
+    "diagnosis_name": "Other Specified Disruptive, Impulse-Control, and Conduct Disorder",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "diagnostic_code": "F91.8",
+    "x": 5.493508815765381,
+    "y": -14.304827690124512,
+    "symptoms_list": "Subthreshold Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_DISSOC",
+    "diagnosis_name": "Other Specified Dissociative Disorder",
+    "chapter_category": "Dissociative Disorders",
+    "diagnostic_code": "F44.89",
+    "x": 4.03394889831543,
+    "y": -13.61023235321045,
+    "symptoms_list": "Subthreshold Dissociation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_EATING",
+    "diagnosis_name": "Other Specified Feeding or Eating Disorder",
+    "chapter_category": "Feeding and Eating Disorders",
+    "diagnostic_code": "F50.89",
+    "x": 3.4971885681152344,
+    "y": -19.11326026916504,
+    "symptoms_list": "Subthreshold Eating Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_ELIM",
+    "diagnosis_name": "Other Specified Elimination Disorder",
+    "chapter_category": "Elimination Disorders",
+    "diagnostic_code": "N39.498",
+    "x": 1.2172759771347046,
+    "y": -16.72171974182129,
+    "symptoms_list": "Subthreshold Elimination Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_GD",
+    "diagnosis_name": "Other Specified Gender Dysphoria",
+    "chapter_category": "Gender Dysphoria",
+    "diagnostic_code": "F64.8",
+    "x": 7.4038825035095215,
+    "y": -12.015398979187012,
+    "symptoms_list": "Subthreshold Dysphoria, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_OCD",
+    "diagnosis_name": "Other Specified Obsessive\u2013Compulsive and Related Disorder",
+    "chapter_category": "Obsessive\u2013Compulsive and Related Disorders",
+    "diagnostic_code": "F42.8",
+    "x": 7.54981803894043,
+    "y": -14.838984489440918,
+    "symptoms_list": "Subthreshold Obsessive-Compulsive Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_PARAPH",
+    "diagnosis_name": "Other Specified Paraphilic Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.89",
+    "x": 9.948027610778809,
+    "y": -13.29585075378418,
+    "symptoms_list": "Subthreshold Paraphilia, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_SEX",
+    "diagnosis_name": "Other Specified Sexual Dysfunction",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F52.8",
+    "x": 11.305746078491211,
+    "y": -13.82849407196045,
+    "symptoms_list": "Subthreshold Sexual Dysfunction, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_SSD",
+    "diagnosis_name": "Other Specified Somatic Symptom and Related Disorder",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "diagnostic_code": "F45.8",
+    "x": 5.354547500610352,
+    "y": -15.912894248962402,
+    "symptoms_list": "Subthreshold Somatic Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OS_TRAUMA",
+    "diagnosis_name": "Other Specified Trauma- and Stressor-Related Disorder",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "diagnostic_code": "F43.89",
+    "x": 4.152116298675537,
+    "y": -16.212495803833008,
+    "symptoms_list": "Subthreshold Trauma, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_OTTD",
+    "diagnosis_name": "Other Specified/Unspecified Tic Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F95.8",
+    "x": 2.400397777557373,
+    "y": -6.799209117889404,
+    "symptoms_list": "Unspecified Tics, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PANIC",
+    "diagnosis_name": "Panic Disorder",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F41.0",
+    "x": 3.69863224029541,
+    "y": 3.7639777660369873,
+    "symptoms_list": "Persistent Panic Worry, Panic Avoidance, Clinically Significant Distress, Not Substance Induced"
+  },
+  {
+    "diagnosis_id": "DX_PARANOID_PD",
+    "diagnosis_name": "Paranoid Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F60.0",
+    "x": -2.6859018802642822,
+    "y": 12.80192756652832,
+    "symptoms_list": "Unjustified Suspicion, Doubting Loyalty, Reluctance to Confide, Bearing Grudges, Quick to Anger, Suspicions of Infidelity, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PDD",
+    "diagnosis_name": "Persistent Depressive Disorder (Dysthymia)",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F34.1",
+    "x": -10.318690299987793,
+    "y": 5.755335807800293,
+    "symptoms_list": "Depressed Mood, Continuous Symptoms, Appetite Changes, Sleep Disturbance, Fatigue, Low Self-Esteem, Diminished Concentration, Hopelessness, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PD_MED",
+    "diagnosis_name": "Personality Change Due to Another Medical Condition",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F07.0",
+    "x": 12.753211975097656,
+    "y": -19.519229888916016,
+    "symptoms_list": "Medical Etiology, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PE",
+    "diagnosis_name": "Premature (Early) Ejaculation",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F52.4",
+    "x": 18.622812271118164,
+    "y": -12.031564712524414,
+    "symptoms_list": "Premature Ejaculation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PEDOPH",
+    "diagnosis_name": "Pedophilic Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.4",
+    "x": 7.228283405303955,
+    "y": 31.277523040771484,
+    "symptoms_list": "Prepubescent Arousal, Acting on Urges, Age Difference, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PFAMC",
+    "diagnosis_name": "Psychological Factors Affecting Other Medical Conditions",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "diagnostic_code": "F54",
+    "x": 12.24954891204834,
+    "y": -18.99544334411621,
+    "symptoms_list": "Adverse Psychological Factor, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PGD",
+    "diagnosis_name": "Prolonged Grief Disorder",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "diagnostic_code": "F43.81",
+    "x": 3.253514528274536,
+    "y": 11.492044448852539,
+    "symptoms_list": "Bereavement, Persistent Longing, Identity Disruption, Disbelief About Death, Avoidance of Reminders, Intense Emotional Pain, Difficulty Moving On, Emotional Numbness, Feeling of Meaninglessness, Intense Loneliness, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PHOBIA",
+    "diagnosis_name": "Specific Phobia",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F40.218",
+    "x": 2.2759644985198975,
+    "y": 5.473121166229248,
+    "symptoms_list": "Situational Phobia, Phobic Avoidance, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PICA",
+    "diagnosis_name": "Pica",
+    "chapter_category": "Feeding and Eating Disorders",
+    "diagnostic_code": "F98.3",
+    "x": -4.929201126098633,
+    "y": -27.782470703125,
+    "symptoms_list": "Nonnutritive Eating"
+  },
+  {
+    "diagnosis_id": "DX_PMDD",
+    "diagnosis_name": "Premenstrual Dysphoric Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F32.81",
+    "x": -11.431619644165039,
+    "y": 7.405508995056152,
+    "symptoms_list": "Premenstrual Affective Lability, Premenstrual Irritability, Premenstrual Depressed Mood, Premenstrual Anxiety, Premenstrual Decreased Interest, Premenstrual Concentration Difficulty, Premenstrual Lethargy, Premenstrual Appetite Changes, Premenstrual Sleep Disturbance, Premenstrual Overwhelm, Premenstrual Physical Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PMVTD",
+    "diagnosis_name": "Persistent (Chronic) Motor or Vocal Tic Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F95.1",
+    "x": 22.042909622192383,
+    "y": 11.944039344787598,
+    "symptoms_list": "Chronic Tics, Persistent Tics"
+  },
+  {
+    "diagnosis_id": "DX_PSYCH_MED",
+    "diagnosis_name": "Psychotic Disorder Due to Another Medical Condition",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "diagnostic_code": "F06.2",
+    "x": -10.772335052490234,
+    "y": 14.463735580444336,
+    "symptoms_list": "Medical Etiology, Delusions, Hallucinations, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PSYCH_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Psychotic Disorder",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "diagnostic_code": "F19.95",
+    "x": -11.207313537597656,
+    "y": 15.395915985107422,
+    "symptoms_list": "Substance Etiology, Delusions, Hallucinations, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PTD",
+    "diagnosis_name": "Provisional Tic Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F95.0",
+    "x": 21.878297805786133,
+    "y": 11.024321556091309,
+    "symptoms_list": "Provisional Tics, Persistent Tics"
+  },
+  {
+    "diagnosis_id": "DX_PTSD",
+    "diagnosis_name": "Posttraumatic Stress Disorder",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "diagnostic_code": "F43.10",
+    "x": 2.8586373329162598,
+    "y": 13.446417808532715,
+    "symptoms_list": "Trauma Exposure, Intrusive Reliving, Trauma Avoidance, Trauma Amnesia, Negative Beliefs, Distorted Blame, Persistent Negative Mood, Loss of Interest, Feeling Detached, Negative Mood, Angry Outbursts, Reckless Behavior, Hypervigilance, Exaggerated Startle, Concentration Difficulties, Insomnia, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PTSD_CHILD",
+    "diagnosis_name": "Posttraumatic Stress Disorder (Preschool)",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "diagnostic_code": "F43.10",
+    "x": 2.0414280891418457,
+    "y": 13.835535049438477,
+    "symptoms_list": "Trauma Exposure, Intrusive Reliving, Avoiding Reminders, Avoiding People, Negative Emotions, Diminished Interest, Social Withdrawal, Reduced Positive Emotions, Angry Outbursts, Hypervigilance, Exaggerated Startle, Concentration Difficulties, Insomnia, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_PYRO",
+    "diagnosis_name": "Pyromania",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "diagnostic_code": "F63.1",
+    "x": 4.1084303855896,
+    "y": 25.42054557800293,
+    "symptoms_list": "Fire Setting, Tension Before Fire, Fire Fascination, Pleasure from Fire"
+  },
+  {
+    "diagnosis_id": "DX_RAD",
+    "diagnosis_name": "Reactive Attachment Disorder",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "diagnostic_code": "F94.1",
+    "x": -2.0061652660369873,
+    "y": 19.367816925048828,
+    "symptoms_list": "Emotional Withdrawal, Minimal Responsiveness, Limited Positive Affect, Extreme Neglect, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_REM_BEH",
+    "diagnosis_name": "Rapid Eye Movement Sleep Behavior Disorder",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "G47.52",
+    "x": -21.810306549072266,
+    "y": 2.694091558456421,
+    "symptoms_list": "Acting Out Dreams, Absent Muscle Atonia"
+  },
+  {
+    "diagnosis_id": "DX_RLS",
+    "diagnosis_name": "Restless Legs Syndrome",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "G25.81",
+    "x": -13.9484224319458,
+    "y": -0.8609749674797058,
+    "symptoms_list": "Urge to Move, Worsening at Rest, Evening Worsening, Relief by Movement"
+  },
+  {
+    "diagnosis_id": "DX_RUMINATION",
+    "diagnosis_name": "Rumination Disorder",
+    "chapter_category": "Feeding and Eating Disorders",
+    "diagnostic_code": "F98.21",
+    "x": -1.8988555669784546,
+    "y": -21.85602569580078,
+    "symptoms_list": "Food Regurgitation"
+  },
+  {
+    "diagnosis_id": "DX_SAD",
+    "diagnosis_name": "Social Anxiety Disorder",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F40.10",
+    "x": -0.831416666507721,
+    "y": 8.371575355529785,
+    "symptoms_list": "Social Scrutiny Anxiety, Fear of Evaluation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SADISM",
+    "diagnosis_name": "Sexual Sadism Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.52",
+    "x": 7.8244805335998535,
+    "y": 28.55752182006836,
+    "symptoms_list": "Sadistic Arousal, Nonconsensual Sadism, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SCD",
+    "diagnosis_name": "Social (Pragmatic) Communication Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F80.82",
+    "x": -11.256845474243164,
+    "y": -9.086141586303711,
+    "symptoms_list": "Social Communication Deficit, Adapting Communication, Conversation Rule Difficulty, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SCHIZ",
+    "diagnosis_name": "Schizophrenia",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "diagnostic_code": "F20.9",
+    "x": -10.908522605895996,
+    "y": 17.75750732421875,
+    "symptoms_list": "Delusions, Hallucinations, Disorganized Speech, Catatonic Behavior, Negative Symptoms, Functional Impairment, Not Substance Induced"
+  },
+  {
+    "diagnosis_id": "DX_SCHIZOID_PD",
+    "diagnosis_name": "Schizoid Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F60.1",
+    "x": -4.350727081298828,
+    "y": 17.910722732543945,
+    "symptoms_list": "Social Detachment, Prefers Solitude, Low Sexual Interest, Anhedonia, Lacks Close Friends, Indifference to Others, Emotional Coldness, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SCHIZOTYPAL_PD",
+    "diagnosis_name": "Schizotypal Personality Disorder",
+    "chapter_category": "Personality Disorders",
+    "diagnostic_code": "F21",
+    "x": -5.686598300933838,
+    "y": 15.57498550415039,
+    "symptoms_list": "Ideas of Reference, Odd Beliefs, Unusual Perceptions, Odd Speech, Paranoid Ideation, Constricted Affect, Odd Behavior, Lacks Close Friends, Excessive Social Anxiety, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SCHIZ_AFF",
+    "diagnosis_name": "Schizoaffective Disorder",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "diagnostic_code": "F25.0",
+    "x": -9.621301651000977,
+    "y": 16.195907592773438,
+    "symptoms_list": "Psychosis Without Mood, Delusions, Hallucinations, Depressed Mood, Elevated Mood, Not Substance Induced"
+  },
+  {
+    "diagnosis_id": "DX_SCHIZ_FORM",
+    "diagnosis_name": "Schizophreniform Disorder",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "diagnostic_code": "F20.81",
+    "x": -12.003918647766113,
+    "y": 18.17078971862793,
+    "symptoms_list": "Delusions, Hallucinations, Disorganized Speech, Catatonic Behavior, Negative Symptoms, Not Substance Induced"
+  },
+  {
+    "diagnosis_id": "DX_SEL_MUT",
+    "diagnosis_name": "Selective Mutism",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F94.0",
+    "x": -3.873605728149414,
+    "y": -9.90654182434082,
+    "symptoms_list": "Selective Mutism, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SEP_ANX",
+    "diagnosis_name": "Separation Anxiety Disorder",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F93.0",
+    "x": 3.2085044384002686,
+    "y": 7.498629570007324,
+    "symptoms_list": "Separation Distress, Worry About Harm, Fear of Mishap, Reluctance to Leave, Avoiding Being Alone, Reluctance to Sleep, Separation Nightmares, Physical Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SEX_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Sexual Dysfunction",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F19.99",
+    "x": 14.634445190429688,
+    "y": -13.003388404846191,
+    "symptoms_list": "Induced Sexual Dysfunction, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SLD",
+    "diagnosis_name": "Specific Learning Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F81.0",
+    "x": -10.327085494995117,
+    "y": -12.9603910446167,
+    "symptoms_list": "Low Academic Skills, Low Test Scores, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SMD",
+    "diagnosis_name": "Stereotypic Movement Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F98.4",
+    "x": -6.659651756286621,
+    "y": -11.757144927978516,
+    "symptoms_list": "Stereotypy, Interfering Motor Behavior, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SPEECH_SOUND",
+    "diagnosis_name": "Speech Sound Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F80.0",
+    "x": -8.863482475280762,
+    "y": -8.666915893554688,
+    "symptoms_list": "Speech Production Difficulty, Limited Speech Intelligibility, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SRH",
+    "diagnosis_name": "Sleep-Related Hypoventilation",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "G47.34",
+    "x": -23.451698303222656,
+    "y": -3.279653787612915,
+    "symptoms_list": "Shallow Breathing, Elevated Carbon Dioxide"
+  },
+  {
+    "diagnosis_id": "DX_SSD",
+    "diagnosis_name": "Somatic Symptom Disorder",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "diagnostic_code": "F45.1",
+    "x": 2.7153775691986084,
+    "y": -2.3705365657806396,
+    "symptoms_list": "Distressing Somatic Symptoms, Excessive Health Anxiety, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SSD_PAIN",
+    "diagnosis_name": "Somatic Symptom Disorder, with Predominant Pain",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "diagnostic_code": "F45.1",
+    "x": 3.151148796081543,
+    "y": -2.9068050384521484,
+    "symptoms_list": "Severe Somatic Pain, Excessive Health Anxiety, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_STUTTER",
+    "diagnosis_name": "Childhood-Onset Fluency Disorder (Stuttering)",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F80.81",
+    "x": -8.060564994812012,
+    "y": -8.015141487121582,
+    "symptoms_list": "Speech Fluency Disruptions, Speech Physical Tension, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SUB_SLEEP",
+    "diagnosis_name": "Substance/Medication-Induced Sleep Disorder",
+    "chapter_category": "Sleep\u2013Wake Disorders",
+    "diagnostic_code": "F19.982",
+    "x": -17.527700424194336,
+    "y": -4.052316188812256,
+    "symptoms_list": "Induced Sleep Disturbance, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_SUD",
+    "diagnosis_name": "Substance Use Disorder (Generic)",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "diagnostic_code": "F19.20",
+    "x": 8.758380889892578,
+    "y": 3.2257778644561768,
+    "symptoms_list": "Excessive Substance Use, Inability to Control, Time Consuming Use, Substance Craving, Unfulfilled Role Obligations, Social Impairment, Reduced Activities, Hazardous Substance Use, Continued Harmful Use, Substance Tolerance, Substance Withdrawal"
+  },
+  {
+    "diagnosis_id": "DX_TD",
+    "diagnosis_name": "Tourette\u2019s Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F95.2",
+    "x": 20.7939510345459,
+    "y": 11.928537368774414,
+    "symptoms_list": "Motor Tics, Vocal Tics, Persistent Tics"
+  },
+  {
+    "diagnosis_id": "DX_TRANSV",
+    "diagnosis_name": "Transvestic Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.1",
+    "x": 19.461868286132812,
+    "y": -3.8049368858337402,
+    "symptoms_list": "Crossdressing Arousal, Crossdressing Distress, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_TRICH",
+    "diagnosis_name": "Trichotillomania (Hair-Pulling Disorder)",
+    "chapter_category": "Obsessive\u2013Compulsive and Related Disorders",
+    "diagnostic_code": "F63.3",
+    "x": 14.723150253295898,
+    "y": -5.81240701675415,
+    "symptoms_list": "Hair Pulling, Unsuccessful Cessation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_ANX",
+    "diagnosis_name": "Unspecified Anxiety Disorder",
+    "chapter_category": "Anxiety Disorders",
+    "diagnostic_code": "F41.9",
+    "x": 3.568772554397583,
+    "y": -9.088537216186523,
+    "symptoms_list": "Unspecified Anxiety, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_COMM",
+    "diagnosis_name": "Unspecified Communication Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F80.9",
+    "x": -1.8658374547958374,
+    "y": -10.759057998657227,
+    "symptoms_list": "Unspecified Communication, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_DICD",
+    "diagnosis_name": "Unspecified Disruptive, Impulse-Control, and Conduct Disorder",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "diagnostic_code": "F91.9",
+    "x": 0.5659084916114807,
+    "y": -12.356918334960938,
+    "symptoms_list": "Unspecified Disruptive Behavior, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_DISSOC",
+    "diagnosis_name": "Unspecified Dissociative Disorder",
+    "chapter_category": "Dissociative Disorders",
+    "diagnostic_code": "F44.9",
+    "x": 2.3995778560638428,
+    "y": -11.775710105895996,
+    "symptoms_list": "Unspecified Dissociation, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_EATING",
+    "diagnosis_name": "Unspecified Feeding or Eating Disorder",
+    "chapter_category": "Feeding and Eating Disorders",
+    "diagnostic_code": "F50.9",
+    "x": 0.06667569279670715,
+    "y": -19.39472007751465,
+    "symptoms_list": "Unspecified Eating Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_ELIM",
+    "diagnosis_name": "Unspecified Elimination Disorder",
+    "chapter_category": "Elimination Disorders",
+    "diagnostic_code": "R32",
+    "x": -0.41929396986961365,
+    "y": -17.409231185913086,
+    "symptoms_list": "Unspecified Elimination, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_GD",
+    "diagnosis_name": "Unspecified Gender Dysphoria",
+    "chapter_category": "Gender Dysphoria",
+    "diagnostic_code": "F64.9",
+    "x": 6.931167125701904,
+    "y": -10.540837287902832,
+    "symptoms_list": "Unspecified Dysphoria, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_IDD",
+    "diagnosis_name": "Unspecified Intellectual Developmental Disorder",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "diagnostic_code": "F79",
+    "x": -13.438480377197266,
+    "y": -15.51541805267334,
+    "symptoms_list": "Unassessable Intellect"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_MOOD",
+    "diagnosis_name": "Unspecified Mood Disorder",
+    "chapter_category": "Mood Disorders",
+    "diagnostic_code": "F39",
+    "x": 2.6988439559936523,
+    "y": -9.846295356750488,
+    "symptoms_list": "Unspecified Mood Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_OCD",
+    "diagnosis_name": "Unspecified Obsessive\u2013Compulsive and Related Disorder",
+    "chapter_category": "Obsessive\u2013Compulsive and Related Disorders",
+    "diagnostic_code": "F42.9",
+    "x": 4.753446578979492,
+    "y": -7.925583839416504,
+    "symptoms_list": "Unspecified Obsessive-Compulsive Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_PARAPH",
+    "diagnosis_name": "Unspecified Paraphilic Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.9",
+    "x": 10.700187683105469,
+    "y": -11.415090560913086,
+    "symptoms_list": "Unspecified Paraphilia, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_SEX",
+    "diagnosis_name": "Unspecified Sexual Dysfunction",
+    "chapter_category": "Sexual Dysfunctions",
+    "diagnostic_code": "F52.9",
+    "x": 12.146028518676758,
+    "y": -12.057084083557129,
+    "symptoms_list": "Unspecified Sexual Dysfunction, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_SSD",
+    "diagnosis_name": "Unspecified Somatic Symptom and Related Disorder",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "diagnostic_code": "F45.9",
+    "x": 0.8886462450027466,
+    "y": -9.12812328338623,
+    "symptoms_list": "Unspecified Somatic Symptoms, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_TRAUMA",
+    "diagnosis_name": "Unspecified Trauma- and Stressor-Related Disorder",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "diagnostic_code": "F43.9",
+    "x": 0.7931459546089172,
+    "y": -10.428333282470703,
+    "symptoms_list": "Unspecified Trauma, Clinically Significant Distress"
+  },
+  {
+    "diagnosis_id": "DX_VOYEUR",
+    "diagnosis_name": "Voyeuristic Disorder",
+    "chapter_category": "Paraphilic Disorders",
+    "diagnostic_code": "F65.3",
+    "x": 8.647363662719727,
+    "y": 30.727346420288086,
+    "symptoms_list": "Voyeuristic Arousal, Nonconsenting Voyeurism, Adult Age, Clinically Significant Distress"
+  }
+]
