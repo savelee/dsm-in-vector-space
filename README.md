@@ -25,8 +25,11 @@ You can interact with the live proof and run the simulations here:
 
 The application features:
 1. **Topological Network Graph**: A live physics-based network mapping shared symptom nodes between disorder nodes, showing the porous structural overlap.
+   ![Topological Network Graph](./images/topology.png)
 2. **Semantic Vector Space**: A 2D projection of clinical description embeddings mapped on a clean, dense blueprint grid. Points closer together share deep linguistic context, proving the semantic entanglement.
+   ![Semantic Vector Space](./images/vector_space.png)
 3. **Virtual Shrink Simulator**: A live diagnostic engine that calculates overlapping symptom profiles and triggers a **"Comorbidity Loop Warning"** when the categorical model collapses under high ambiguity.
+   ![Virtual Shrink Simulator](./images/virtual_shrink.png)
 
 ---
 
