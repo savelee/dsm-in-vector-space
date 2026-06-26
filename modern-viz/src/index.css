@@ -794,3 +794,30 @@ body {
   color: var(--text-secondary);
   margin: 0;
 }
+
+/* Premium Tab Proof Explanation Banner */
+.proof-banner {
+  background-color: rgba(255, 255, 255, 0.015); /* Sleek, low-contrast dark banner */
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px 32px;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+
+.proof-banner p {
+  margin: 0;
+  width: 100%;
+}
+
+.proof-banner strong {
+  color: var(--text-primary);
+}
+
+.proof-banner strong:first-child {
+  color: var(--primary-color); /* Highlight tab topic in Spotify Green */
+}

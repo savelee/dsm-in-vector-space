@@ -4,6 +4,7 @@ import type { Diagnosis } from '../utils/diagnosticEngine';
 
 interface SemanticSpaceProps {
   diagnoses: Diagnosis[];
+  showLabels: boolean;
 }
 
 interface TSNEPoint {
@@ -38,7 +39,7 @@ interface SelectedNodeInfo {
   description?: string;
 }
 
-export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
+export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses, showLabels }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const networkRef = useRef<Network | null>(null);
   
@@ -158,7 +159,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
 
         nodesArray.push({
           id: `sym_${symId}`,
-          label: symName,
+          label: showLabels ? symName : '',
           x: p.x * SCALE_FACTOR,
           y: p.y * SCALE_FACTOR,
           physics: false, // Freeze at t-SNE coordinates
@@ -195,7 +196,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
 
         nodesArray.push({
           id: `dx_${dxId}`,
-          label: dxName,
+          label: showLabels ? dxName : '',
           x: p.x * SCALE_FACTOR,
           y: p.y * SCALE_FACTOR,
           physics: false, // Freeze at t-SNE coordinates
@@ -237,7 +238,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
 
           nodesArray.push({
             id: `dx_${dxId}`,
-            label: dxName,
+            label: showLabels ? dxName : '',
             x: centroid.x * SCALE_FACTOR,
             y: centroid.y * SCALE_FACTOR,
             physics: false,
@@ -273,7 +274,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
         // Add Symptom node
         nodesArray.push({
           id: nodeUniqueId,
-          label: symName,
+          label: showLabels ? symName : '',
           x: p.x * SCALE_FACTOR,
           y: p.y * SCALE_FACTOR,
           physics: false,
