@@ -4,17 +4,21 @@ Author: [Lee Boonstra](https://www.leeboonstra.dev)
 
 ---
 
-## 🧠 The Diagnostic Hypothesis: Why the DSM-5 is Broken
+## 🧠 My Diagnostic Hypothesis: Why I Believe the DSM is Wrong
 
-Traditional physical medicine is built on **discrete, biologically isolated decision trees**. For example, determining whether a patient has a **Common Cold vs. COVID-19** is a binary, biological classification: you either have the rhinovirus or the SARS-CoV-2 virus. The diagnostic boundaries are clear, exclusive, and physically verifiable.
+As a software engineer, I look at classification systems through the lens of data architecture, relational integrity, and decision trees. 
 
-In contrast, **psychiatry's DSM-5-TR is built on a categorical classification model that lacks biological boundaries**. It defines disorders as arbitrary checklists of overlapping, descriptive symptoms. 
+When we look at traditional physical medicine, diagnostics are built on **discrete, biologically isolated decision trees**. For example, determining whether a patient has a **Common Cold vs. COVID-19** is a binary, biological classification: you either have the rhinovirus or the SARS-CoV-2 virus. The diagnostic boundaries are clear, mutually exclusive, and physically verifiable.
+
+In contrast, **psychiatry's DSM-5-TR is built on a categorical classification model that completely lacks biological boundaries**. It defines disorders not by unique pathology, but as arbitrary checklists of overlapping, descriptive symptoms. 
 
 ### The Problem: Porous Boundaries & Tautological Loops
-Because distinct psychological disorders share identical symptom definitions (e.g., fatigue, sleep disturbance, concentration difficulty), the boundaries between disorders are porous and entangled. This creates massive **comorbidity overlaps** and **tautological loops** (e.g., the "Anxiety-Depression Vortex"), where a clinician is mathematically forced to diagnose a patient with multiple conditions simultaneously, exposing the artificiality of discrete clinical categories.
+Because distinct diagnostic categories share identical symptom definitions (e.g., fatigue, sleep disturbances, concentration difficulties), the boundaries between disorders are porous and fundamentally entangled. This creates massive **comorbidity overlaps** and **tautological loops** (such as the "Anxiety-Depression Vortex"), where a clinician is mathematically forced to diagnose a patient with multiple conditions simultaneously.
 
-### 📊 Live Interactive Proof (PWA Web Client)
-We have built a **modern, interactive data science visualizer** to map, calculate, and prove this hypothesis using the semantic geometry of the DSM-5. 
+I believe this proves that the DSM's categorical boundaries are artificial. Instead of reflecting discrete medical realities, the DSM forces fluid clinical presentations into rigid, overlapping boxes.
+
+### 📊 Live Interactive Proof
+I have built an **interactive data science visualizer** to map, calculate, and prove this hypothesis using the semantic geometry of the DSM-5. 
 
 You can interact with the live proof and run the simulations here:
 👉 **[https://savelee.github.io/dsm-in-vector-space/](https://savelee.github.io/dsm-in-vector-space/)**
@@ -91,7 +95,7 @@ See the [Database Schema README](./db/README.md) for detailed Entity-Relationshi
 
 ## Local Vector Embeddings Cache
 
-The repository includes an optimized utility script to pre-compute vector embeddings for all diagnoses and symptoms using Google Cloud Vertex AI's `text-embedding-005` model. Committing these vectors to GitHub saves API latency and costs for other developers.
+The repository includes an optimized utility script to pre-compute vector embeddings for all diagnoses and symptoms using state-of-the-art clinical text embedding models. Committing these vectors to GitHub saves API latency and costs for other developers.
 
 To run the embedding generator on your local machine:
 1. **Install SDK Dependencies**:
@@ -99,9 +103,9 @@ To run the embedding generator on your local machine:
    make init-embeddings
    ```
 2. **Generate the Embedding Cache**:
-   Provide your active Google Cloud Project ID:
+   Provide your active Cloud Project ID:
    ```bash
-   make generate-embeddings PROJECT_ID=your-gcp-project-id
+   make generate-embeddings PROJECT_ID=your-project-id
    ```
    This will generate a single optimized local vector lookup file at `embeddings/embeddings_text_embedding_005.json`.
 
@@ -145,35 +149,26 @@ make lint
 
 ---
 
-## 📊 Diagnostic Visualizations
+## 📊 Live Interactive Web Client (React + TypeScript + Vite)
 
-The repository contains two interactive visualization applications to explore the topological and semantic geometry of the DSM-5-TR:
+This is a pure client-side, touch-optimized, PWA-enabled web application. It runs 100% in the browser and requires **no server-side running backend**, making it perfect for free static hosting (like GitHub Pages, Vercel, or Firebase Hosting).
 
-### 1. Streamlit Interactive Dashboard (Python)
-A server-side dashboard utilizing Streamlit, Plotly, and PyVis.
-* **Setup & Launch**:
-  ```bash
-  make init-visualization
-  make run-visualization
-  ```
-  This will launch the application locally at `http://localhost:8501/`.
+### Setup & Running Locally
 
-### 2. Modern Touch-Optimized Web Client (React + TypeScript + Vite)
-A pure client-side, touch-optimized Material Design application. It runs 100% in the browser and requires **no server-side running backend**, making it perfect for free static hosting (like GitHub Pages, Vercel, or Firebase Hosting).
-* **Setup**:
-  ```bash
-  make init-modern-viz
-  ```
-* **Run Local Development Server**:
-  ```bash
-  make run-modern-viz
-  ```
-  This starts the local development server at `http://localhost:3000/`.
-* **Build Static Bundle**:
-  ```bash
-  make build-modern-viz
-  ```
-  This compiles the application into an optimized static `modern-viz/dist/` folder, ready for free instant hosting.
+1. **Install Dependencies**:
+   ```bash
+   make init-modern-viz
+   ```
+2. **Run Local Development Server**:
+   ```bash
+   make run-modern-viz
+   ```
+   This starts the local development server at `http://localhost:5173/`.
+3. **Build Static Bundle**:
+   ```bash
+   make build-modern-viz
+   ```
+   This compiles the application into an optimized static `modern-viz/dist/` folder, ready for free instant hosting.
 
 
 
