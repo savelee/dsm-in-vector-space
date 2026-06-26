@@ -2,6 +2,30 @@
 
 Author: [Lee Boonstra](https://www.leeboonstra.dev)
 
+---
+
+## 🧠 The Diagnostic Hypothesis: Why the DSM-5 is Broken
+
+Traditional physical medicine is built on **discrete, biologically isolated decision trees**. For example, determining whether a patient has a **Common Cold vs. COVID-19** is a binary, biological classification: you either have the rhinovirus or the SARS-CoV-2 virus. The diagnostic boundaries are clear, exclusive, and physically verifiable.
+
+In contrast, **psychiatry's DSM-5-TR is built on a categorical classification model that lacks biological boundaries**. It defines disorders as arbitrary checklists of overlapping, descriptive symptoms. 
+
+### The Problem: Porous Boundaries & Tautological Loops
+Because distinct psychological disorders share identical symptom definitions (e.g., fatigue, sleep disturbance, concentration difficulty), the boundaries between disorders are porous and entangled. This creates massive **comorbidity overlaps** and **tautological loops** (e.g., the "Anxiety-Depression Vortex"), where a clinician is mathematically forced to diagnose a patient with multiple conditions simultaneously, exposing the artificiality of discrete clinical categories.
+
+### 📊 Live Interactive Proof (PWA Web Client)
+We have built a **modern, interactive data science visualizer** to map, calculate, and prove this hypothesis using the semantic geometry of the DSM-5. 
+
+You can interact with the live proof and run the simulations here:
+👉 **[https://savelee.github.io/dsm-in-vector-space/](https://savelee.github.io/dsm-in-vector-space/)**
+
+The application features:
+1. **Topological Network Graph**: A live physics-based network mapping shared symptom nodes between disorder nodes, showing the porous structural overlap.
+2. **Semantic Vector Space**: A 2D projection of clinical description embeddings mapped on a clean, dense blueprint grid. Points closer together share deep linguistic context, proving the semantic entanglement.
+3. **Virtual Shrink Simulator**: A live diagnostic engine that calculates overlapping symptom profiles and triggers a **"Comorbidity Loop Warning"** when the categorical model collapses under high ambiguity.
+
+---
+
 This repository contains the structured JSON datasets representing the DSM-5-TR classification of mental disorders, along with database schemas, vector embedding utilities, and tools to parse, list, and validate diagnostic symptoms.
 
 ## License & Attribution

@@ -1,0 +1,18 @@
+{
+  "short_name": "DSM Explorer",
+  "name": "DSM-5 Semantic Network Explorer",
+  "description": "Interactive data science map exploring clinical overlaps and comorbidities in the DSM-5.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#121212",
+  "background_color": "#121212"
+}

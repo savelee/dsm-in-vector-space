@@ -40,10 +40,12 @@ body {
   background-color: var(--bg-color);
 }
 
+/* Header Toolbar: Premium, sleek, compact iOS-style branding */
 .header {
+  height: 60px; /* Sleeker, space-saving toolbar height */
   background-color: var(--card-bg);
   border-bottom: 1px solid var(--border-color);
-  padding: 22px 32px;
+  padding: 0 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,13 +56,13 @@ body {
 }
 
 .header h1 {
-  font-size: 28px; /* High-end, bold tablet application title */
+  font-size: 20px; /* Crisp, readable, non-obtrusive app title */
   font-weight: 800;
   color: var(--text-primary);
   display: flex;
   align-items: center;
   gap: 12px;
-  letter-spacing: -0.8px;
+  letter-spacing: -0.5px;
 }
 
 .main-content {

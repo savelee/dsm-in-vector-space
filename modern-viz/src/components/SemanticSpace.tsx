@@ -515,30 +515,6 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
 
         <div ref={containerRef} style={{ width: '100%', height: '100%' }} />
 
-        {/* Premium Map Legend Floating Card */}
-        <div className="map-legend-card">
-          <div className="legend-title">
-            <span className="legend-icon">📊</span>
-            <span>Semantic Map Guide</span>
-          </div>
-          <p className="legend-text">
-            This space projects the 768-dimensional AI embeddings of clinical descriptions into a 2D map.
-          </p>
-          <div className="legend-item">
-            <span className="legend-dot" style={{ backgroundColor: '#1db954' }}></span>
-            <span><strong>Proximity:</strong> Closer nodes share deep clinical context.</span>
-          </div>
-          {level === 'overlap' && (
-            <div className="legend-item">
-              <span className="legend-dot" style={{ backgroundColor: '#00e5ff' }}></span>
-              <span><strong>Constellations:</strong> Edge lines reveal comorbidity overlaps.</span>
-            </div>
-          )}
-          <div className="legend-item">
-            <span className="legend-dot" style={{ backgroundColor: '#555555' }}></span>
-            <span><strong>Scale:</strong> Normalized projection coordinates.</span>
-          </div>
-        </div>
 
         {/* Floating Info Panel - Reuses the exact same Touch UI */}
         {selectedNode && (
