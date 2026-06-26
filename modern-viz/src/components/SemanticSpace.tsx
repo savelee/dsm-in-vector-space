@@ -59,13 +59,13 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
         setError(null);
 
         // Fetch symptom t-SNE cache
-        const symRes = await fetch('/data/tsne_cache.json');
+        const symRes = await fetch('data/tsne_cache.json');
         if (!symRes.ok) throw new Error('Failed to load symptom t-SNE data');
         const symJson: TSNEPoint[] = await symRes.json();
         setSymptomsData(symJson);
 
         // Fetch diagnosis centroid t-SNE cache
-        const dxRes = await fetch('/data/tsne_dx_cache.json');
+        const dxRes = await fetch('data/tsne_dx_cache.json');
         if (!dxRes.ok) throw new Error('Failed to load diagnosis t-SNE data');
         const dxJson: TSNEPoint[] = await dxRes.json();
         setDxData(dxJson);

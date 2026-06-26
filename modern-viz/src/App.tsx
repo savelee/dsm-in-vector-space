@@ -27,13 +27,13 @@ export const App: React.FC = () => {
         setError(null);
 
         // Fetch diagnoses
-        const dxRes = await fetch('/data/diagnoses.json');
+        const dxRes = await fetch('data/diagnoses.json');
         if (!dxRes.ok) throw new Error('Failed to fetch diagnoses database.');
         const dxData: Diagnosis[] = await dxRes.json();
         setDiagnoses(dxData);
 
         // Fetch unique symptoms
-        const symRes = await fetch('/data/unique_symptoms.json');
+        const symRes = await fetch('data/unique_symptoms.json');
         if (!symRes.ok) throw new Error('Failed to fetch unique symptoms database.');
         const symData: Symptom[] = await symRes.json();
         setSymptoms(symData);
@@ -247,7 +247,7 @@ export const App: React.FC = () => {
       {/* Premium Copyright & Medical Disclaimer Footer */}
       <footer className="footer">
         <div className="footer-copyright">
-          All rights reserved Lee Boonstra. <a href="https://www.leeboonstra.dev" target="_blank" rel="noopener noreferrer">www.leeboonstra.dev</a>
+          All rights reserved Lee Boonstra. <a href="https://www.leeboonstra.dev" target="_blank" rel="noopener noreferrer">www.leeboonstra.dev</a> • <a href="https://github.com/savelee/dsm-in-vector-space" target="_blank" rel="noopener noreferrer">Browse DSM Data (GitHub)</a>
         </div>
         <div className="footer-disclaimer">
           <strong>Disclaimer:</strong> This application is an engineering proof-of-concept and visualization tool. The author is a software engineer, not a psychiatrist or medical professional. The contents, maps, and simulations of this tool are for educational and analytical purposes only, and must not be used for clinical diagnosis, medical advice, or treatment decisions. The author is not responsible for any clinical outcomes or decisions made using this application.
