@@ -1,6 +1,6 @@
 {
-  "short_name": "DSM Explorer",
-  "name": "DSM-5 Semantic Network Explorer",
+  "short_name": "DSM Vector",
+  "name": "DSM-5 in Vector Space",
   "description": "Interactive data science map exploring clinical overlaps and comorbidities in the DSM-5.",
   "icons": [
     {

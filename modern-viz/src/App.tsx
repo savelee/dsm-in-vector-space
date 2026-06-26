@@ -135,7 +135,7 @@ export const App: React.FC = () => {
           >
             ☰
           </button>
-          <h1>🧠 DSM-5 Semantic Network Explorer</h1>
+          <h1>🧠 DSM-5 in Vector Space</h1>
         </div>
       </header>
 
