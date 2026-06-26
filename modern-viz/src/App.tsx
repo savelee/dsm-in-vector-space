@@ -15,7 +15,6 @@ export const App: React.FC = () => {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState<boolean>(true);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const [showLabels, setShowLabels] = useState<boolean>(true);
 
   // 1. Fetch static datasets from public assets
   useEffect(() => {
@@ -180,20 +179,7 @@ export const App: React.FC = () => {
             />
           </div>
 
-          {/* Semantic Space specific label toggler */}
-          {activeTab === 'vector' && (
-            <div className="form-group" style={{ marginTop: '16px' }}>
-              <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '14px', color: 'var(--text-primary)' }}>
-                <input
-                  type="checkbox"
-                  checked={showLabels}
-                  onChange={(e) => setShowLabels(e.target.checked)}
-                  style={{ width: '16px', height: '16px', accentColor: 'var(--primary-color)', cursor: 'pointer' }}
-                />
-                Show Node Labels
-              </label>
-            </div>
-          )}
+
 
           {/* Premium Left-Bordered Hypothesis Callout Card */}
           <div className="sidebar-hypothesis-card">
@@ -243,11 +229,6 @@ export const App: React.FC = () => {
                 <strong>Topological Network:</strong> Maps shared symptoms between disorders. 💡 <strong>Proves Porous Boundaries:</strong> Diagnoses are structurally entangled and cannot be isolated due to massive symptom sharing.
               </p>
             )}
-            {activeTab === 'vector' && (
-              <p>
-                <strong>Semantic Vector Space:</strong> 2D spatial projection of clinical descriptions. 💡 <strong>Proves Semantic Entanglement:</strong> Categories cluster by linguistic proximity, exposing the lack of discrete clinical boundaries.
-              </p>
-            )}
             {activeTab === 'shrink' && (
               <p>
                 <strong>Virtual Shrink Simulator:</strong> Interactive diagnostic calculator. 💡 <strong>Proves Categorical Collapse:</strong> Demonstrates how overlapping checklist profiles trigger comorbidity loops.
@@ -276,7 +257,7 @@ export const App: React.FC = () => {
             )}
 
             {activeTab === 'vector' && (
-              <SemanticSpace diagnoses={diagnoses} showLabels={showLabels} />
+              <SemanticSpace diagnoses={diagnoses} />
             )}
 
             {activeTab === 'shrink' && (

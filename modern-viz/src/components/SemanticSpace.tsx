@@ -4,7 +4,6 @@ import type { Diagnosis } from '../utils/diagnosticEngine';
 
 interface SemanticSpaceProps {
   diagnoses: Diagnosis[];
-  showLabels: boolean;
 }
 
 interface TSNEPoint {
@@ -39,18 +38,21 @@ interface SelectedNodeInfo {
   description?: string;
 }
 
-export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses, showLabels }) => {
+export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const networkRef = useRef<Network | null>(null);
   
   const [level, setLevel] = useState<ProjectionLevel>('symptom');
+  const [selectedDxNames, setSelectedDxNames] = useState<string[]>([
+    'Major Depressive Disorder',
+    'Generalized Anxiety Disorder'
+  ]);
   const [symptomsData, setSymptomsData] = useState<TSNEPoint[]>([]);
   const [dxData, setDxData] = useState<TSNEPoint[]>([]);
-  const [selectedDxNames, setSelectedDxNames] = useState<string[]>(['Major Depressive Disorder', 'Generalized Anxiety Disorder']);
-  
   const [selectedNode, setSelectedNode] = useState<SelectedNodeInfo | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+  const [showLabels, setShowLabels] = useState<boolean>(true);
 
   // 1. Fetch precomputed t-SNE caches from public/data
   useEffect(() => {
@@ -420,8 +422,8 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses, showLab
   }
 
   return (
-    <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
+    <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px', padding: '24px' }}>
         <div>
           <h3 className="card-title">📊 Semantic Vector Space</h3>
           <p className="description-text" style={{ marginBottom: 0 }}>
@@ -429,28 +431,62 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses, showLab
           </p>
         </div>
 
-        {/* Level Toggles */}
-        <div className="preset-row" style={{ flexShrink: 0 }}>
-          <button 
-            className={`btn ${level === 'symptom' ? 'btn-primary' : 'btn-outline'}`}
-            onClick={() => setLevel('symptom')}
-          >
-            Symptom Space
-          </button>
-          <button 
-            className={`btn ${level === 'diagnosis' ? 'btn-primary' : 'btn-outline'}`}
-            onClick={() => setLevel('diagnosis')}
-          >
-            Diagnosis Centroids
-          </button>
-          <button 
-            className={`btn ${level === 'overlap' ? 'btn-primary' : 'btn-outline'}`}
-            onClick={() => setLevel('overlap')}
-          >
-            Symptom-Disorder Overlap
-          </button>
+        {/* Level Toggles & Label Switch */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
+          <div className="preset-row" style={{ flexShrink: 0 }}>
+            <button 
+              className={`btn ${level === 'symptom' ? 'btn-primary' : 'btn-outline'}`}
+              onClick={() => setLevel('symptom')}
+            >
+              Symptom Space
+            </button>
+            <button 
+              className={`btn ${level === 'diagnosis' ? 'btn-primary' : 'btn-outline'}`}
+              onClick={() => setLevel('diagnosis')}
+            >
+              Diagnosis Centroids
+            </button>
+            <button 
+              className={`btn ${level === 'overlap' ? 'btn-primary' : 'btn-outline'}`}
+              onClick={() => setLevel('overlap')}
+            >
+              Symptom-Disorder Overlap
+            </button>
+          </div>
+
+          <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '13px', fontWeight: '700', color: 'var(--text-primary)', backgroundColor: '#181818', padding: '8px 16px', borderRadius: '20px', border: '2px solid var(--border-color)', minHeight: '38px', userSelect: 'none' }}>
+            <input
+              type="checkbox"
+              checked={showLabels}
+              onChange={(e) => setShowLabels(e.target.checked)}
+              style={{ width: '15px', height: '15px', accentColor: 'var(--primary-color)', cursor: 'pointer', margin: 0 }}
+            />
+            Show Labels
+          </label>
         </div>
       </div>
+
+      {/* Local Full-Width Dynamic Explanation Ribbon */}
+      <div className="proof-banner" style={{ borderBottom: '1px solid var(--border-color)', borderTop: '1px solid var(--border-color)', backgroundColor: 'rgba(255, 255, 255, 0.015)' }}>
+        {level === 'symptom' && (
+          <p style={{ margin: 0, fontSize: '12.5px', lineHeight: 1.5, color: 'var(--text-secondary)' }}>
+            <strong>Symptom Space:</strong> 2D projection of clinical symptom embeddings. 💡 <strong>Proves Linguistic Redundancy:</strong> Symptoms form a continuous, overlapping clinical landscape rather than isolated psychiatric categories.
+          </p>
+        )}
+        {level === 'diagnosis' && (
+          <p style={{ margin: 0, fontSize: '12.5px', lineHeight: 1.5, color: 'var(--text-secondary)' }}>
+            <strong>Diagnosis Centroids:</strong> Mathematical centers of disorder symptom profiles. 💡 <strong>Proves Conceptual Entanglement:</strong> High-level clinical definitions (e.g., anxiety and mood disorders) cluster close together, showing their artificial separation.
+          </p>
+        )}
+        {level === 'overlap' && (
+          <p style={{ margin: 0, fontSize: '12.5px', lineHeight: 1.5, color: 'var(--text-secondary)' }}>
+            <strong>Comorbidity Overlaps:</strong> Constellation spoke network of shared symptoms. 💡 <strong>Proves Porous Boundaries:</strong> Demonstrates the direct sharing of identical symptom definitions between distinct categories, making comorbidities inevitable.
+          </p>
+        )}
+      </div>
+
+      {/* Internal padding container for rest of card components */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', padding: '24px' }}>
 
       {/* Dynamic Overlap Comparison Checklist */}
       {level === 'overlap' && (
@@ -555,6 +591,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses, showLab
             </div>
           </div>
         )}
+      </div>
       </div>
     </div>
   );
