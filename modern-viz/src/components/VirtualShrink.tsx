@@ -33,6 +33,13 @@ export const VirtualShrink: React.FC<VirtualShrinkProps> = ({
     ]);
   };
 
+  const handlePresetReckless = () => {
+    setSelectedSymptomIds([
+      'SYM_PTSD_AROUSAL_RECKLESS', // Reckless Behavior (Post Trauma)
+      'SYM_ASPD_RECKLESS',         // Reckless Disregard (Antisocial)
+    ]);
+  };
+
   const handleClearSelections = () => {
     setSelectedSymptomIds([]);
   };
@@ -96,6 +103,9 @@ export const VirtualShrink: React.FC<VirtualShrinkProps> = ({
               </button>
               <button className="btn btn-outline" onClick={handlePresetSchizoaffective}>
                 🎭 Schizoaffective Borderland
+              </button>
+              <button className="btn btn-outline" onClick={handlePresetReckless}>
+                🚗 Reckless Behavior vs Disregard
               </button>
               {selectedSymptomIds.length > 0 && (
                 <button 
