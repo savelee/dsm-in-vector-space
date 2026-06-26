@@ -241,9 +241,13 @@ export const App: React.FC = () => {
             {activeTab === 'network' && (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', height: '100%' }}>
                 <div style={{ flexShrink: 0 }}>
-                  <h3 className="card-title">Topological Network Graph</h3>
-                  <p className="description-text">
-                    This physics-based network maps explicit DSM-5 diagnostic criteria. Color-coded <strong>Disorder Nodes (green)</strong> connect to <strong>Symptom Nodes (cyan)</strong>. Drag, zoom, and tap nodes to view structural details.
+                  <h3 className="card-title">🕸️ Topological Network Graph</h3>
+                  <p className="description-text" style={{ fontSize: '13px', lineHeight: '1.6', color: 'var(--text-secondary)', margin: '0 0 16px 0' }}>
+                    <strong>The Diagnostic Web:</strong> This interactive, physics-based network maps the explicit criteria of the DSM-5. Large green circles represent the disorders, and smaller cyan dots represent individual symptoms. Lines connect disorders directly to the symptoms required to diagnose them.
+                    <br /><br />
+                    💡 <strong>Why this matters:</strong> It visually exposes the DSM's structural instability. Instead of separate, independent disorders, you will see a highly dense, interconnected web. The massive amount of lines crossing between different chapters shows that the DSM's categories are deeply entangled at the root, making diagnostic overlap a mathematical certainty.
+                    <br /><br />
+                    👉 <strong>What to do:</strong> Drag nodes around to feel the physics of the network. Scroll to zoom in and out. Tap on any green disorder node to highlight its specific symptom profile, or tap on a cyan symptom node to see how many different disorders rely on that exact same symptom to make a diagnosis!
                   </p>
                 </div>
                 <div style={{ flex: 1, minHeight: '450px' }}>
