@@ -626,8 +626,12 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
           </p>
         )}
         {level === 'overlap' && (
-          <p style={{ margin: 0, fontSize: '12.5px', lineHeight: 1.5, color: 'var(--text-secondary)' }}>
-            <strong>Comorbidity Overlaps:</strong> Constellation spoke network of shared symptoms. 💡 <strong>Proves Porous Boundaries:</strong> Demonstrates the direct sharing of identical symptom definitions between distinct categories, making comorbidities inevitable.
+          <p style={{ margin: 0, fontSize: '13px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
+            <strong>Symptom Tug-of-War:</strong> This map connects disorders (the large circles) directly to the symptoms they share (the small dots in the middle). If a symptom belongs to more than one disorder, it sits right between them, pulled in both directions.
+            <br /><br />
+            💡 <strong>Why this matters:</strong> It proves that "comorbidity" (having multiple mental illnesses at once) is often just an illness-labeling illusion. Because different disorders copy-paste the exact same symptom definitions, a patient experiencing those symptoms will automatically trigger multiple checklists at once!
+            <br /><br />
+            👉 <strong>What to do:</strong> Select different disorders in the checklist below. Look at the symptoms suspended in the middle with lines pulling both ways. Click on any shared dot to see how a single symptom bridges two supposedly separate diagnoses.
           </p>
         )}
       </div>
