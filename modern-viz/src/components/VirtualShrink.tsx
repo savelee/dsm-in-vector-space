@@ -17,19 +17,53 @@ export const VirtualShrink: React.FC<VirtualShrinkProps> = ({
   // 1. Core Clinical Scenario Presets
   const handlePresetAnxietyDepression = () => {
     setSelectedSymptomIds([
-      'SYM_MDD_FATIGUE',  // Fatigue or loss of energy
-      'SYM_MDD_SLEEP',    // Sleep Disturbance (insomnia/hypersomnia)
-      'SYM_GAD_CONC',     // Concentration difficulty
-      'SYM_GAD_RESTLESS', // Feeling keyed up or on edge
+      // Major Depressive Disorder (MDD) Profile
+      'SYM_MDD_MOOD',      // Depressed Mood
+      'SYM_MDD_INT',       // Diminished Interest
+      'SYM_MDD_WT',        // Appetite Changes
+      'SYM_MDD_SLEEP',     // Sleep Disturbance (MDD)
+      'SYM_MDD_PSYCH',     // Psychomotor Changes
+      'SYM_MDD_FATIGUE',   // Fatigue (MDD)
+      'SYM_MDD_GUILT',     // Worthlessness or Guilt
+      'SYM_MDD_CONC',      // Diminished Concentration (MDD)
+      'SYM_MDD_SUICIDE',   // Suicidal Ideation
+
+      // Generalized Anxiety Disorder (GAD) Profile
+      'SYM_GAD_WORRY',     // Excessive Worry
+      'SYM_GAD_RESTLESS',  // Restlessness
+      'SYM_GAD_FATIGUE',   // Easy Fatigability (GAD)
+      'SYM_GAD_CONC',      // Poor Concentration (GAD)
+      'SYM_GAD_IRRIT',     // Irritability
+      'SYM_GAD_MUSCLE',    // Muscle Tension
+      'SYM_GAD_SLEEP',     // Sleep Disturbance (GAD)
+
+      // Shared Exclusion
+      'SYM_BPL_DISTRESS',  // Clinically Significant Distress
     ]);
   };
 
   const handlePresetSchizoaffective = () => {
     setSelectedSymptomIds([
-      'SYM_SCHIZ_DEL',    // Delusions
-      'SYM_SCHIZ_HAL',    // Hallucinations
-      'SYM_MAN_GRAND',    // Grandiosity
-      'SYM_MAN_SLEEP',    // Decreased need for sleep
+      // Schizophrenia Profile
+      'SYM_SCHIZ_DEL',           // Delusions
+      'SYM_SCHIZ_HAL',           // Hallucinations
+      'SYM_SCHIZ_SPEECH',        // Disorganized Speech
+      'SYM_SCHIZ_CAT',           // Catatonic Behavior
+      'SYM_SCHIZ_NEG',           // Negative Symptoms
+      'SYM_SCHIZ_IMPAIR',        // Functional Impairment
+      'SYM_BPL_NOT_SUBSTANCE',   // Not Substance Induced
+
+      // Bipolar I Disorder (Manic Episode) Profile
+      'SYM_MAN_MOOD',            // Elevated Mood
+      'SYM_MAN_ENER',            // Increased Energy
+      'SYM_MAN_GRAND',           // Grandiosity
+      'SYM_MAN_SLEEP',           // Decreased Sleep Need
+      'SYM_MAN_TALK',            // Pressured Speech
+      'SYM_MAN_FLIGHT',          // Racing Thoughts
+      'SYM_MAN_DISTRACT',        // Distractibility
+      'SYM_MAN_GOAL',            // Goal-Directed Activity
+      'SYM_MAN_RISK',            // Risky Behavior
+      'SYM_BPL_DISTRESS',        // Clinically Significant Distress
     ]);
   };
 
