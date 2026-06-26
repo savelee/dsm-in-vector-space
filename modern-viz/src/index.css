@@ -117,59 +117,10 @@ body {
   opacity: 0;
 }
 
-/* TABLET MODE (Under 1024px): Transform Sidebar into a horizontal top control bar */
-@media (max-width: 1024px) {
+/* TABLET & MOBILE VIEWPORTS: Maintain vertical side drawer on all screens */
+@media (max-width: 360px) {
   .sidebar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: auto;
-    bottom: auto; /* Remove bottom constraint to let height resolve naturally */
-    max-height: 320px;
-    border-right: none;
-    border-bottom: 1px solid var(--border-color);
-    padding: 24px 32px;
-    flex-direction: row; /* Horizontal alignment */
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 24px;
-    transform: translateY(0); /* Default open state (slides from top) */
-    box-shadow: var(--shadow-sm);
-    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
-                opacity 0.35s ease;
-    overflow-y: hidden;
-  }
-  
-  .sidebar.collapsed {
-    transform: translateY(-100%) !important; /* Slide completely upwards out of view! */
-    opacity: 0 !important;
-    max-height: 320px !important; /* Preserve max-height to let translation handle collapse */
-    padding-top: 24px !important;
-    padding-bottom: 24px !important;
-    border-bottom-width: 1px !important;
-  }
-  
-  .sidebar > div:first-child, 
-  .sidebar > div:last-child {
-    display: none; /* Hide static description blocks on tablet */
-  }
-  .sidebar .form-group {
-    flex: 1;
-    min-width: 260px;
-  }
-}
-
-@media (max-width: 600px) {
-  .sidebar {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 18px;
-    padding: 20px;
-  }
-  .sidebar .form-group {
-    min-width: 100%;
+    width: 280px; /* Slimmer drawer on tiny viewports to preserve tapping margins */
   }
 }
 
@@ -807,4 +758,39 @@ body {
     text-align: center;
     max-width: 100%;
   }
+}
+
+/* Sidebar Hypothesis Card (Premium callout card) */
+.sidebar-hypothesis-card {
+  margin-top: auto; /* Push to the bottom of the flex sidebar */
+  background-color: rgba(255, 255, 255, 0.02); /* Faint dark card background */
+  border-left: 3px solid var(--primary-color); /* Spotify Green Left Accent Border */
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-hypothesis-card .hypothesis-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin: 0;
+}
+
+.sidebar-hypothesis-card .hypothesis-subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary-color); /* Highlight in Spotify Green */
+  margin: 0;
+}
+
+.sidebar-hypothesis-card .hypothesis-text {
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin: 0;
 }

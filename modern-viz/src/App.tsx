@@ -182,9 +182,18 @@ export const App: React.FC = () => {
             />
           </div>
 
-          <div style={{ marginTop: 'auto', borderTop: '1px solid var(--border-color)', paddingTop: '16px' }}>
-            <p style={{ fontSize: '13px', lineHeight: 1.5 }}>
-              <strong>About:</strong> This tool projects the semantic and topological geometry of the DSM-5 to critique categorical psychiatric nosology, demonstrating linguistic redundancy.
+          {/* Premium Left-Bordered Hypothesis Callout Card */}
+          <div className="sidebar-hypothesis-card">
+            <h3 className="hypothesis-title">🧠 My Hypothesis</h3>
+            <h4 className="hypothesis-subtitle">Checklist vs. Decision Tree</h4>
+            <p className="hypothesis-text">
+              Physical medicine diagnostics use **discrete biological decision trees** (e.g., Common Cold vs. COVID-19).
+            </p>
+            <p className="hypothesis-text">
+              Conversely, the DSM relies on **categorical checklists** of overlapping symptoms. Because different disorders share identical symptom definitions, their boundaries are porous and entangled.
+            </p>
+            <p className="hypothesis-text">
+              This app maps this collapse: the vector space clusters symptoms by linguistic proximity, and the simulator triggers a **Comorbidity Loop Warning** when the checklist model fails.
             </p>
           </div>
         </aside>
