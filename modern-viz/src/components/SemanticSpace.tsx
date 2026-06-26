@@ -569,7 +569,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
   }
 
   return (
-    <div ref={cardRef} className="card" style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
+    <div ref={cardRef} className="card" style={{ display: 'flex', flexDirection: 'column', gap: '0px', scrollMarginTop: '90px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px', padding: '24px' }}>
         <div>
           <h3 className="card-title">📊 Semantic Vector Space</h3>
@@ -616,13 +616,21 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
       {/* Local Full-Width Dynamic Explanation Ribbon */}
       <div className="proof-banner" style={{ borderBottom: '1px solid var(--border-color)', borderTop: '1px solid var(--border-color)', backgroundColor: 'rgba(255, 255, 255, 0.015)' }}>
         {level === 'symptom' && (
-          <p style={{ margin: 0, fontSize: '12.5px', lineHeight: 1.5, color: 'var(--text-secondary)' }}>
-            <strong>Symptom Space:</strong> 2D projection of clinical symptom embeddings. 💡 <strong>Proves Linguistic Redundancy:</strong> Symptoms form a continuous, overlapping clinical landscape rather than isolated psychiatric categories.
+          <p style={{ margin: 0, fontSize: '13px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
+            <strong>Symptom Constellation:</strong> This map projects all 4,300+ clinical symptoms in our database as individual colored dots. Symptoms that are linguistically and conceptually similar are grouped closely together, forming dense star clusters.
+            <br /><br />
+            💡 <strong>Why this matters:</strong> It proves that symptoms do not exist in neat, isolated diagnostic boxes. Instead, they form a continuous, overlapping clinical galaxy. The smooth transitions between clusters show that categories like "Anxiety" and "Depression" are artificial boundaries drawn on a single, undivided map of human distress.
+            <br /><br />
+            👉 <strong>What to do:</strong> Click and drag to pan around the galaxy. Scroll to zoom in on dense clusters. Hover over or click on any individual dot to read its exact description and see how the clinical language of psychiatry organically flows from one category to the next.
           </p>
         )}
         {level === 'diagnosis' && (
-          <p style={{ margin: 0, fontSize: '12.5px', lineHeight: 1.5, color: 'var(--text-secondary)' }}>
-            <strong>Diagnosis Centroids:</strong> Mathematical centers of disorder symptom profiles. 💡 <strong>Proves Conceptual Entanglement:</strong> High-level clinical definitions (e.g., anxiety and mood disorders) cluster close together, showing their artificial separation.
+          <p style={{ margin: 0, fontSize: '13px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
+            <strong>Disorder Centers:</strong> This map condenses each disorder's entire symptom profile into a single mathematical center point (centroid). It shows you where each diagnosis sits relative to the others in the overall clinical landscape.
+            <br /><br />
+            💡 <strong>Why this matters:</strong> It proves that high-level clinical definitions are conceptually entangled. If the DSM's categories were truly distinct, these centers would be spaced far apart. Instead, they cluster tightly together, showing that the core definitions of supposedly different disorders share a massive amount of conceptual DNA.
+            <br /><br />
+            👉 <strong>What to do:</strong> Look at the tight clusters of centers. Click on any disorder point to see its clinical description. Notice how closely related disorders (like Major Depressive Disorder and Generalized Anxiety Disorder) sit almost on top of each other, demonstrating why they are so easily confused in practice.
           </p>
         )}
         {level === 'overlap' && (
