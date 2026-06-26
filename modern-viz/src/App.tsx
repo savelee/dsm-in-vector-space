@@ -12,10 +12,7 @@ export const App: React.FC = () => {
   const [symptoms, setSymptoms] = useState<Symptom[]>([]);
   const [selectedChapter, setSelectedChapter] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState<string>('');
-  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState<boolean>(() => {
-    // Start collapsed on tablets and mobile screens, open on desktops
-    return typeof window !== 'undefined' ? window.innerWidth <= 1024 : false;
-  });
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState<boolean>(true);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [showLabels, setShowLabels] = useState<boolean>(true);
