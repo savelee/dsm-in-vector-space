@@ -184,11 +184,11 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
   const [error, setError] = useState<string | null>(null);
   const [showLabels, setShowLabels] = useState<boolean>(true);
 
-  // Smooth scroll helper for level changes
+  // Smooth scroll helper for level changes - scrolls directly to the canvas map
   const changeLevel = (newLevel: ProjectionLevel) => {
     setLevel(newLevel);
     setTimeout(() => {
-      cardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      containerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 100);
   };
 
@@ -522,7 +522,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
         });
         // Smoothly scroll container just enough to make sure the detail card is visible
         setTimeout(() => {
-          cardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          containerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }, 80);
       }
     });
@@ -709,7 +709,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
           </div>
         )}
 
-        <div ref={containerRef} style={{ width: '100%', height: '100%' }} />
+        <div ref={containerRef} style={{ width: '100%', height: '100%', scrollMarginTop: '80px' }} />
 
 
         {/* Floating Info Panel - Reuses the exact same Touch UI */}
