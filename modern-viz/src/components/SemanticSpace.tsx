@@ -42,6 +42,7 @@ interface SelectedNodeInfo {
 export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const networkRef = useRef<Network | null>(null);
+  const cardRef = useRef<HTMLDivElement>(null);
   
   const [level, setLevel] = useState<ProjectionLevel>('symptom');
   const [selectedDxNames, setSelectedDxNames] = useState<string[]>([
@@ -54,6 +55,14 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [showLabels, setShowLabels] = useState<boolean>(true);
+
+  // Smooth scroll helper for level changes
+  const changeLevel = (newLevel: ProjectionLevel) => {
+    setLevel(newLevel);
+    setTimeout(() => {
+      cardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+  };
 
   // 1. Fetch precomputed t-SNE caches from public/data
   useEffect(() => {
@@ -381,6 +390,10 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
           ...matchedNode.customData,
           color: matchedNode.color?.background
         });
+        // Smoothly scroll container just enough to make sure the detail card is visible
+        setTimeout(() => {
+          cardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 80);
       }
     });
 
@@ -426,7 +439,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
   }
 
   return (
-    <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
+    <div ref={cardRef} className="card" style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px', padding: '24px' }}>
         <div>
           <h3 className="card-title">📊 Semantic Vector Space</h3>
@@ -440,19 +453,19 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
           <div className="preset-row" style={{ flexShrink: 0 }}>
             <button 
               className={`btn ${level === 'symptom' ? 'btn-primary' : 'btn-outline'}`}
-              onClick={() => setLevel('symptom')}
+              onClick={() => changeLevel('symptom')}
             >
               Symptom Space
             </button>
             <button 
               className={`btn ${level === 'diagnosis' ? 'btn-primary' : 'btn-outline'}`}
-              onClick={() => setLevel('diagnosis')}
+              onClick={() => changeLevel('diagnosis')}
             >
               Diagnosis Centroids
             </button>
             <button 
               className={`btn ${level === 'overlap' ? 'btn-primary' : 'btn-outline'}`}
-              onClick={() => setLevel('overlap')}
+              onClick={() => changeLevel('overlap')}
             >
               Symptom-Disorder Overlap
             </button>
