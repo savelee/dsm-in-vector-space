@@ -4,7 +4,7 @@ Author: [Lee Boonstra](https://www.leeboonstra.dev)
 
 ---
 
-## 🧠 My Diagnostic Hypothesis: Why I Believe the DSM is Wrong
+## 🧠 HYPOTHESIS
 
 As a software engineer, I look at classification systems through the lens of data architecture, relational integrity, and decision trees. 
 

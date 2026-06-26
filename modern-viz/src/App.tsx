@@ -184,7 +184,7 @@ export const App: React.FC = () => {
 
           {/* Premium Left-Bordered Hypothesis Callout Card */}
           <div className="sidebar-hypothesis-card">
-            <h3 className="hypothesis-title">🧠 My Hypothesis</h3>
+            <h3 className="hypothesis-title">🧠 HYPOTHESIS</h3>
             <h4 className="hypothesis-subtitle">Checklist vs. Decision Tree</h4>
             <p className="hypothesis-text">
               Physical medicine diagnostics use **discrete biological decision trees** (e.g., Common Cold vs. COVID-19).
