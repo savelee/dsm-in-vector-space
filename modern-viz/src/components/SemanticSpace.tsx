@@ -400,7 +400,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
         networkRef.current = null;
       }
     };
-  }, [level, symptomsData, dxData, overlapData, selectedDxNames]);
+  }, [level, symptomsData, dxData, overlapData, selectedDxNames, showLabels]);
 
   const handleDxToggle = (dxName: string) => {
     if (selectedDxNames.includes(dxName)) {
