@@ -14,91 +14,46 @@ export const VirtualShrink: React.FC<VirtualShrinkProps> = ({
   const [selectedSymptomIds, setSelectedSymptomIds] = useState<string[]>([]);
   const [symptomSearch, setSymptomSearch] = useState<string>('');
 
-  // 1. Core Clinical Scenario Presets
+  // 1. Core Clinical Scenario Presets - Curated to exactly 9 symptoms each
   const handlePresetAnxietyDepression = () => {
     setSelectedSymptomIds([
-      // Major Depressive Disorder (MDD) Profile
-      'SYM_MDD_MOOD',      // Depressed Mood
-      'SYM_MDD_INT',       // Diminished Interest
-      'SYM_MDD_WT',        // Appetite Changes
-      'SYM_MDD_SLEEP',     // Sleep Disturbance (MDD)
-      'SYM_MDD_PSYCH',     // Psychomotor Changes
+      'SYM_MDD_MOOD',      // Depressed Mood (MDD)
+      'SYM_GAD_WORRY',     // Excessive Worry (GAD)
       'SYM_MDD_FATIGUE',   // Fatigue (MDD)
-      'SYM_MDD_GUILT',     // Worthlessness or Guilt
-      'SYM_MDD_CONC',      // Diminished Concentration (MDD)
-      'SYM_MDD_SUICIDE',   // Suicidal Ideation
-
-      // Generalized Anxiety Disorder (GAD) Profile
-      'SYM_GAD_WORRY',     // Excessive Worry
-      'SYM_GAD_RESTLESS',  // Restlessness
       'SYM_GAD_FATIGUE',   // Easy Fatigability (GAD)
-      'SYM_GAD_CONC',      // Poor Concentration (GAD)
-      'SYM_GAD_IRRIT',     // Irritability
-      'SYM_GAD_MUSCLE',    // Muscle Tension
+      'SYM_MDD_SLEEP',     // Sleep Disturbance (MDD)
       'SYM_GAD_SLEEP',     // Sleep Disturbance (GAD)
-
-      // Shared Exclusion
-      'SYM_BPL_DISTRESS',  // Clinically Significant Distress
+      'SYM_MDD_CONC',      // Diminished Concentration (MDD)
+      'SYM_GAD_CONC',      // Poor Concentration (GAD)
+      'SYM_BPL_DISTRESS',  // Clinically Significant Distress (Shared)
     ]);
   };
 
   const handlePresetSchizoaffective = () => {
     setSelectedSymptomIds([
-      // Schizophrenia Profile
       'SYM_SCHIZ_DEL',           // Delusions
       'SYM_SCHIZ_HAL',           // Hallucinations
       'SYM_SCHIZ_SPEECH',        // Disorganized Speech
-      'SYM_SCHIZ_CAT',           // Catatonic Behavior
-      'SYM_SCHIZ_NEG',           // Negative Symptoms
-      'SYM_SCHIZ_IMPAIR',        // Functional Impairment
-      'SYM_BPL_NOT_SUBSTANCE',   // Not Substance Induced
-
-      // Bipolar I Disorder (Manic Episode) Profile
       'SYM_MAN_MOOD',            // Elevated Mood
       'SYM_MAN_ENER',            // Increased Energy
       'SYM_MAN_GRAND',           // Grandiosity
-      'SYM_MAN_SLEEP',           // Decreased Sleep Need
       'SYM_MAN_TALK',            // Pressured Speech
-      'SYM_MAN_FLIGHT',          // Racing Thoughts
-      'SYM_MAN_DISTRACT',        // Distractibility
-      'SYM_MAN_GOAL',            // Goal-Directed Activity
-      'SYM_MAN_RISK',            // Risky Behavior
-      'SYM_BPL_DISTRESS',        // Clinically Significant Distress
+      'SYM_MAN_SLEEP',           // Decreased Sleep Need
+      'SYM_BPL_DISTRESS',        // Clinically Significant Distress (Shared)
     ]);
   };
 
   const handlePresetReckless = () => {
     setSelectedSymptomIds([
-      // PTSD Profile Symptoms
       'SYM_PTSD_TRAUMA',           // Trauma Exposure
       'SYM_PTSD_INTRU',            // Intrusive Reliving
       'SYM_PTSD_AVOID',            // Trauma Avoidance
-      'SYM_PTSD_COG_AMNESIA',      // Trauma Amnesia
-      'SYM_PTSD_COG_BELIEFS',      // Negative Beliefs
-      'SYM_PTSD_COG_BLAME',        // Distorted Blame
-      'SYM_PTSD_COG_MOOD_NEG',     // Persistent Negative Mood
-      'SYM_PTSD_COG_INTEREST',     // Loss of Interest
-      'SYM_PTSD_COG_DETACH',       // Feeling Detached
-      'SYM_ASD_MOOD_NEGATIVE',     // Negative Mood
-      'SYM_ASD_AROUSAL_ANGER',     // Angry Outbursts
-      'SYM_PTSD_AROUSAL_RECKLESS', // Reckless Behavior
-      'SYM_ASD_AROUSAL_VIGILANCE', // Hypervigilance
-      'SYM_ASD_AROUSAL_STARTLE',   // Exaggerated Startle
-      'SYM_ASD_AROUSAL_CONC',      // Concentration Difficulties
-      'SYM_GEN_INSOMNIA',          // Insomnia
-
-      // ASPD Profile Symptoms
-      'SYM_ASPD_ILLEGAL',          // Unlawful Behavior
-      'SYM_ASPD_DECEIT',           // Deceitfulness
-      'SYM_ASPD_IMPULSE',          // Impulsivity
-      'SYM_ASPD_IRRIT',            // Irritability And Aggression
-      'SYM_ASPD_RECKLESS',         // Reckless Disregard
-      'SYM_ASPD_IRRESP',           // Consistent Irresponsibility
-      'SYM_ASPD_REMORSE',          // Lack Of Remorse
-      'SYM_ASPD_CD_HISTORY',       // Conduct Disorder History
-
-      // Shared Distress Exclusion
-      'SYM_BPL_DISTRESS',          // Clinically Significant Distress
+      'SYM_PTSD_AROUSAL_RECKLESS', // Reckless Behavior (PTSD)
+      'SYM_ASPD_RECKLESS',         // Reckless Disregard (ASPD)
+      'SYM_ASD_AROUSAL_ANGER',     // Angry Outbursts (PTSD)
+      'SYM_ASPD_IRRIT',            // Irritability And Aggression (ASPD)
+      'SYM_ASPD_IMPULSE',          // Impulsivity (ASPD)
+      'SYM_BPL_DISTRESS',          // Clinically Significant Distress (Shared)
     ]);
   };
 
