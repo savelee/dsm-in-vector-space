@@ -52,7 +52,16 @@ const CATEGORY_NAMES: Record<string, string> = {
   'PSYCH': 'Schizophrenia & Psychotic Disorders',
   'BPL': 'Bipolar & Related Disorders',
   'DEP': 'Depressive Disorders',
-  'TRAUMA': 'Trauma & Stressor-Related Disorders'
+  'TRAUMA': 'Trauma & Stressor-Related Disorders',
+  
+  // Dissociative, Body Dysmorphic & Intellectual classifications
+  'DA': 'Dissociative Amnesia',
+  'DID': 'Dissociative Identity Disorder',
+  'DDD': 'Depersonalization/Derealization Disorder',
+  'DIS': 'Dissociative Disorders (Unspecified)',
+  'DCD': 'Developmental Coordination Disorder',
+  'BDD': 'Body Dysmorphic Disorder',
+  'BIF': 'Borderline Intellectual Functioning'
 };
 
 interface SelectedNodeInfo {
