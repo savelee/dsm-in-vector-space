@@ -35,8 +35,36 @@ export const VirtualShrink: React.FC<VirtualShrinkProps> = ({
 
   const handlePresetReckless = () => {
     setSelectedSymptomIds([
-      'SYM_PTSD_AROUSAL_RECKLESS', // Reckless Behavior (Post Trauma)
-      'SYM_ASPD_RECKLESS',         // Reckless Disregard (Antisocial)
+      // PTSD Profile Symptoms
+      'SYM_PTSD_TRAUMA',           // Trauma Exposure
+      'SYM_PTSD_INTRU',            // Intrusive Reliving
+      'SYM_PTSD_AVOID',            // Trauma Avoidance
+      'SYM_PTSD_COG_AMNESIA',      // Trauma Amnesia
+      'SYM_PTSD_COG_BELIEFS',      // Negative Beliefs
+      'SYM_PTSD_COG_BLAME',        // Distorted Blame
+      'SYM_PTSD_COG_MOOD_NEG',     // Persistent Negative Mood
+      'SYM_PTSD_COG_INTEREST',     // Loss of Interest
+      'SYM_PTSD_COG_DETACH',       // Feeling Detached
+      'SYM_ASD_MOOD_NEGATIVE',     // Negative Mood
+      'SYM_ASD_AROUSAL_ANGER',     // Angry Outbursts
+      'SYM_PTSD_AROUSAL_RECKLESS', // Reckless Behavior
+      'SYM_ASD_AROUSAL_VIGILANCE', // Hypervigilance
+      'SYM_ASD_AROUSAL_STARTLE',   // Exaggerated Startle
+      'SYM_ASD_AROUSAL_CONC',      // Concentration Difficulties
+      'SYM_GEN_INSOMNIA',          // Insomnia
+
+      // ASPD Profile Symptoms
+      'SYM_ASPD_ILLEGAL',          // Unlawful Behavior
+      'SYM_ASPD_DECEIT',           // Deceitfulness
+      'SYM_ASPD_IMPULSE',          // Impulsivity
+      'SYM_ASPD_IRRIT',            // Irritability And Aggression
+      'SYM_ASPD_RECKLESS',         // Reckless Disregard
+      'SYM_ASPD_IRRESP',           // Consistent Irresponsibility
+      'SYM_ASPD_REMORSE',          // Lack Of Remorse
+      'SYM_ASPD_CD_HISTORY',       // Conduct Disorder History
+
+      // Shared Distress Exclusion
+      'SYM_BPL_DISTRESS',          // Clinically Significant Distress
     ]);
   };
 
