@@ -29,6 +29,32 @@ const PALETTE = [
   '#8bc34a', '#e91e63', '#ffeb3b', '#607d8b', '#00f5d4'
 ];
 
+// Clinical Category mapping to translate database codes to full human-readable names
+const CATEGORY_NAMES: Record<string, string> = {
+  'AN': 'Anorexia Nervosa',
+  'BN': 'Bulimia Nervosa',
+  'BED': 'Binge Eating Disorder',
+  'PICA': 'Pica',
+  'ARFID': 'Avoidant/Restrictive Food Intake Disorder',
+  'MDD': 'Major Depressive Disorder',
+  'GAD': 'Generalized Anxiety Disorder',
+  'SAD': 'Social Anxiety Disorder',
+  'PD': 'Panic Disorder',
+  'OCD': 'Obsessive-Compulsive Disorder',
+  'PTSD': 'Post-Traumatic Stress Disorder',
+  'BPD': 'Borderline Personality Disorder',
+  'ASD': 'Autism Spectrum Disorder',
+  'ADHD': 'ADHD',
+  'SCHIZ': 'Schizophrenia Spectrum',
+  'BP1': 'Bipolar I Disorder',
+  'BP2': 'Bipolar II Disorder',
+  'ANX': 'Anxiety Disorders',
+  'PSYCH': 'Schizophrenia & Psychotic Disorders',
+  'BPL': 'Bipolar & Related Disorders',
+  'DEP': 'Depressive Disorders',
+  'TRAUMA': 'Trauma & Stressor-Related Disorders'
+};
+
 interface SelectedNodeInfo {
   type: 'diagnosis' | 'symptom';
   name: string;
@@ -37,6 +63,7 @@ interface SelectedNodeInfo {
   chapter?: string;
   description?: string;
   color?: string;
+  category?: string;
 }
 
 export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
@@ -188,6 +215,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
             type: 'symptom',
             id: symId,
             name: symName,
+            category: cat,
             description: p.description || 'No description available.'
           }
         });
@@ -303,6 +331,7 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
             type: 'symptom',
             id: symId,
             name: symName,
+            category: p.category || 'Unknown',
             description: p.description || 'No description available.'
           }
         });
@@ -597,7 +626,9 @@ export const SemanticSpace: React.FC<SemanticSpaceProps> = ({ diagnoses }) => {
               )}
             </div>
             <div style={{ fontSize: '11px', color: '#b3b3b3', marginBottom: '8px', fontWeight: '500' }}>
-              {selectedNode.type === 'diagnosis' ? `Chapter: ${selectedNode.chapter}` : `Symptom ID: ${selectedNode.id}`}
+              {selectedNode.type === 'diagnosis' 
+                ? `Chapter: ${selectedNode.chapter}` 
+                : `Disorder Group: ${CATEGORY_NAMES[selectedNode.category || ''] || selectedNode.category || 'Eating Disorders'}`}
             </div>
             <div className="node-info-desc">
               {selectedNode.type === 'diagnosis' ? (
